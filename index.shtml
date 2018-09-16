@@ -68,7 +68,7 @@
        <li><a href="http://space2.norstrilia.net/rod_docs/">Rod's Docs</a></li>
       </ul>
 
-      <h2>Attivit&aacute;...</h2>
+      <h2>Attivit&agrave;...</h2>
 
       <h3><a href="http://coderdojo.norstrilia.net/">2014 - Coderdojo experiments</a></h3>
       <p>Prove e tutorial realizzati per Coderdojo Firenze nel periodo 2014...?</p>
@@ -78,12 +78,18 @@
        <li><a href="./jssandbox.shtml">pagina</a> con prove</li>
        <li><a href="http://abba-dingo.norstrilia.net/doku.php?id=tutorialjs">appunti</a> sul wiki</li>
        <li><a href="./scripts/toggle_chesscom_alerts_mod.user.js">script greasemonkey</a> per chess.com</li>
-      </ul> 
+      </ul>
+
+      <h2>Archivio</h2>
+      <p>Vecchie pagine non pi&ugrave; mantenute.</p>
+      <ul>
+        <li><a href="./googlemaps.shtml">Esperimenti Google Maps</a></li>
+      </ul>
 
    </div>
 
-   <!--#include virtual="/incs/footer.html" -->
-    
+   <!--#include virtual="./incs/footer.html" -->
+
 </body>
 
 </html>
