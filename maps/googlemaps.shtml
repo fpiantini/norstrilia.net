@@ -67,7 +67,7 @@
       </p>
    </div>
 
-   <!--#include virtual="../incs/footer.html" -->
+   <!--#include virtual="/incs/footer.html" -->
 
 
 </body>
