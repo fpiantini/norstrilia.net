@@ -45,8 +45,11 @@ h2 {
 }
 
 h3 {
-  font-size: medium;
+  font-size: small;
   font-style: italic;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
 }
 
 h4 {
