@@ -5,13 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 
 
-<head>
+  <head>
    <title>
    Norstrilia.Net - Maps Experiments Page
    </title>
 
    <!-- Style sheet inclusion -->
    <link rel="stylesheet" type="text/css" href="../norstrilia.css" />
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""/>
+   <link rel="stylesheet" type="text/css" href="./maps.css" />
 
    <!-- Meta informations. Change to actual values -->
    <meta name="author" content="Rod McBan" />
@@ -24,6 +28,14 @@
 
    <meta name="keywords" content="Norstrilia" />
    <!-- End of Meta informations -->
+
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+      integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+      crossorigin="">
+    </script>
+
+    <script type="text/javascript" src="myleaflet.js"></script>
+
 
 </head>
 
@@ -40,13 +52,31 @@
     <div id="body">
 
       <p>
-         Se quel guerrier io fossi....
+         Esperimenti con mappe generate con
+         <a href="https://leafletjs.com/">Leaflet</a>
       </p>
 
-      <p>
-         ...se il mio sogno si avverasse
-      </p>
    </div>
+
+   <div id="mapid"></div>
+
+   <script>
+    initmap();
+   </script>
+   <!-- *******************************************************************************
+   <script>
+
+     var cogne = L.map('mapid').setView([45.6074676, 7.3490831], 13);
+
+     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoicm9kbWNiYW4iLCJhIjoiY2ptNHQ2c3N1MGducTNxbzRydGUwZzdtMSJ9.jILIRcBlfcJTPZztynaKwQ', {
+       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+          'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
+       id: 'mapbox.streets',
+     }).addTo(cogne);
+
+   </script>
+   -->
 
    <!--#include virtual="../incs/footer.html" -->
 
