@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML>
+<HEAD>
+<TITLE>ChessBase HTML output</TITLE>
+<META NAME="GENERATOR" CONTENT="ChessBase 2007 Premium">
+<STYLE TYPE='text/css'>
+<!--
+body {color: 000000; font-family:Times new Roman; font-size:12pt;  font: normal}
+p {color: 000000; font-family:Times new Roman; font-size:12pt;  font: normal}
+h1 {color: 000000}
+h4 {color: 000000}
+.e1b {font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e0 {color: 000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e1 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e2 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e3 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.e4 {color: #000000; font-family:Times new Roman; font-size:12pt;  font-style: normal; text-decoration: none}
+.game {font-family:Times new Roman; font-size:12pt;  font-style: normal;}
+//-->
+</STYLE>
+<script  type="text/javascript" language="JavaScript" src="chesscomj0.js">
+</script>
+</HEAD>
+<BODY BGCOLOR=#FEFDF0 onLoad="Init(); ">
+<CENTER><P><TABLE border cellpadding=6 bgcolor="#FEFDF0"><TR><TD>
+<IMG SRC="../gif/brw.gif" name='chesscomg64.htm'><IMG SRC="../gif/bnb.gif"><IMG SRC="../gif/bbw.gif"><IMG SRC="../gif/bqb.gif"><IMG SRC="../gif/bkw.gif"><IMG SRC="../gif/bbb.gif"><IMG SRC="../gif/bnw.gif"><IMG SRC="../gif/brb.gif"><BR><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><BR><IMG SRC="../gif/wrb.gif"><IMG SRC="../gif/wnw.gif"><IMG SRC="../gif/wbb.gif"><IMG SRC="../gif/wqw.gif"><IMG SRC="../gif/wkb.gif"><IMG SRC="../gif/wbw.gif"><IMG SRC="../gif/wnb.gif"><IMG SRC="../gif/wrw.gif"></TD></TR></TABLE><BR>
+<FORM action="" NAME="panel64">
+<input type=button value=" Start " onClick="b64=GoStart(m64,n64,64,b64, 'chesscomg64.htm'); GMS(m64,n64,64,b64, 'chesscomg64.htm');">
+
+<input type=button value=" &lt;&lt; " onClick="MB_564();" onKeyPress="MB_564();" onDblClick="MB_564();">
+
+<input type=button value=" &lt; " onClick="MB64();" onKeyPress="MB64();" onDblClick="MB64();">
+
+<input type=button value=" &gt; " onClick="MF64(false);" onKeyPress="MF64(false);" onDblClick="MF64(false);">
+
+<input type=button value=" &gt;&gt; " onClick="MF_564();" onKeyPress="MF_564();" onDblClick="MF_564();">
+
+<input type=button value=" End " onClick="b64=GoEnd(m64,n64,64,b64, 'chesscomg64.htm'); GMS(m64,n64,64,b64, 'chesscomg64.htm');">
+
+
+<CENTER><DIV id="ichesscom64"></DIV></CENTER>
+<ILAYER><LAYER width=300><CENTER></CENTER></LAYER></ILAYER><BR>
+<BR><BR></center>
+<script  type="text/javascript">
+function MoveForwardAnim64()
+{
+	if ( nMoves[64] < m64[0].length / 2 )
+		b64=MF(m64, n64, 64, b64, 'chesscomg64.htm',false);
+	else
+		b64=GoStart(m64, n64, 64, b64, 'chesscomg64.htm');
+	GMS(m64, n64, 64, b64, 'chesscomg64.htm');
+	window.setTimeout( "MoveForwardAnim64()", 1000 );
+}
+</script>
+<h3>(142) theHULK (1595) - fpiantini (1769)<BR>
+ 3rd Chess.com Tournament (1601-1800) Chess.com (1), 24.06.2008<BR>
+</h3>
+<P><B>
+<a href="javascript:g64(1,0)" id='a0' class='e0' name="zeroAnchor">1.d4</a>
+ <a href="javascript:g64(2,0)" id='a1' class='e0'>Cf6</a>
+ <a href="javascript:g64(3,0)" id='a2' class='e0'>2.c3</a>
+ <a href="javascript:g64(4,0)" id='a3' class='e0'>g6</a>
+ <a href="javascript:g64(5,0)" id='a4' class='e0'>3.g3</a>
+ <a href="javascript:g64(6,0)" id='a5' class='e0'>Ag7</a>
+ <a href="javascript:g64(7,0)" id='a6' class='e0'>4.Ag2</a>
+ <a href="javascript:g64(8,0)" id='a7' class='e0'>d6</a>
+ <a href="javascript:g64(9,0)" id='a8' class='e0'>5.e4</a>
+ <a href="javascript:g64(10,0)" id='a9' class='e0'>0-0</a>
+ <a href="javascript:g64(11,0)" id='a10' class='e0'>6.Ag5</a>
+ <a href="javascript:g64(12,0)" id='a11' class='e0'>c5</a>
+ <a href="javascript:g64(13,0)" id='a12' class='e0'>7.dxc5</a>
+ <a href="javascript:g64(14,0)" id='a13' class='e0'>dxc5</a>
+ <a href="javascript:g64(15,0)" id='a14' class='e0'>8.De2</a>
+ <a href="javascript:g64(16,0)" id='a15' class='e0'>b6</a>
+ <a href="javascript:g64(17,0)" id='a16' class='e0'>9.Cf3</a>
+ <a href="javascript:g64(18,0)" id='a17' class='e0'>Ag4</a>
+ <a href="javascript:g64(19,0)" id='a18' class='e0'>10.Cbd2</a>
+ <a href="javascript:g64(20,0)" id='a19' class='e0'>Cbd7</a>
+ <a href="javascript:g64(21,0)" id='a20' class='e0'>11.0-0</a>
+ <a href="javascript:g64(22,0)" id='a21' class='e0'>Dc7</a>
+ <a href="javascript:g64(23,0)" id='a22' class='e0'>12.h3</a>
+ <a href="javascript:g64(24,0)" id='a23' class='e0'>Axf3</a>
+ <a href="javascript:g64(25,0)" id='a24' class='e0'>13.Axf3</a>
+ <a href="javascript:g64(26,0)" id='a25' class='e0'>Tad8</a>
+ <a href="javascript:g64(27,0)" id='a26' class='e0'>14.Cc4</a>
+ <a href="javascript:g64(28,0)" id='a27' class='e0'>Ce5</a>
+ <a href="javascript:g64(29,0)" id='a28' class='e0'>15.Cxe5</a>
+ <a href="javascript:g64(30,0)" id='a29' class='e0'>Dxe5</a>
+ <a href="javascript:g64(31,0)" id='a30' class='e0'>16.Axf6</a>
+ <a href="javascript:g64(32,0)" id='a31' class='e0'>Axf6</a>
+ <a href="javascript:g64(33,0)" id='a32' class='e0'>17.a4</a>
+ <a href="javascript:g64(34,0)" id='a33' class='e0'>a5</a>
+ <a href="javascript:g64(35,0)" id='a34' class='e0'>18.Ag4</a>
+ <a href="javascript:g64(36,0)" id='a35' class='e0'>Td6</a>
+ <a href="javascript:g64(37,0)" id='a36' class='e0'>19.f4</a>
+ <a href="javascript:g64(38,0)" id='a37' class='e0'>Td2</a>
+ <a href="javascript:g64(39,0)" id='a38' class='e0'>20.Dxd2</a>
+ <a href="javascript:g64(40,0)" id='a39' class='e0'>Dxe4</a>
+ <a href="javascript:g64(41,0)" id='a40' class='e0'>21.Tfe1</a>
+ <a href="javascript:g64(42,0)" id='a41' class='e0'>Dc6</a>
+ <a href="javascript:g64(43,0)" id='a42' class='e0'>22.Dd7</a>
+ <a href="javascript:g64(44,0)" id='a43' class='e0'>Dxd7</a>
+ <a href="javascript:g64(45,0)" id='a44' class='e0'>23.Axd7</a>
+ <a href="javascript:g64(46,0)" id='a45' class='e0'>e6</a>
+ <a href="javascript:g64(47,0)" id='a46' class='e0'>24.Tad1</a>
+ <a href="javascript:g64(48,0)" id='a47' class='e0'>h5</a>
+ <a href="javascript:g64(49,0)" id='a48' class='e0'>25.h4</a>
+ <a href="javascript:g64(50,0)" id='a49' class='e0'>Rg7</a>
+ <a href="javascript:g64(51,0)" id='a50' class='e0'>26.Td6</a>
+ <a href="javascript:g64(52,0)" id='a51' class='e0'>Td8</a>
+ <a href="javascript:g64(53,0)" id='a52' class='e0'>27.Ted1</a>
+ <a href="javascript:g64(54,0)" id='a53' class='e0'>e5</a>
+ <a href="javascript:g64(55,0)" id='a54' class='e0'>28.f5</a>
+ <a href="javascript:g64(56,0)" id='a55' class='e0'>Ae7</a>
+ <a href="javascript:g64(57,0)" id='a56' class='e0'>29.T6d5</a>
+ <a href="javascript:g64(58,0)" id='a57' class='e0'>Af6</a>
+ <a href="javascript:g64(59,0)" id='a58' class='e0'>30.fxg6</a>
+ <a href="javascript:g64(60,0)" id='a59' class='e0'>fxg6</a>
+ <a href="javascript:g64(61,0)" id='a60' class='e0'>31.Ae6</a>
+ <a href="javascript:g64(62,0)" id='a61' class='e0'>Te8</a>
+ <a href="javascript:g64(63,0)" id='a62' class='e0'>32.Td7+</a>
+ <a href="javascript:g64(64,0)" id='a63' class='e0'>Rh6</a>
+ <a href="javascript:g64(65,0)" id='a64' class='e0'>33.Af7</a>
+ <a href="javascript:g64(66,0)" id='a65' class='e0'>Te7</a>
+ <a href="javascript:g64(67,0)" id='a66' class='e0'>34.Txe7</a>
+ <a href="javascript:g64(68,0)" id='a67' class='e0'>Axe7</a>
+ <a href="javascript:g64(69,0)" id='a68' class='e0'>35.Td7</a>
+ 1-0</B></P>
+</BODY></HTML>

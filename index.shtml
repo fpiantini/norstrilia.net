@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+
+   <title>
+   Norstrilia.Net - Home Page
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="./norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 8/1/2007" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="Norstrilia Home Page" />
+
+   <meta name="keywords" content="Norstrilia" />
+   <!-- End of Meta informations -->
+
+</head>
+
+
+<body>
+    <div id="header">
+      <h1>Norstrilia.net Home Page</h1>
+    </div>
+
+
+    <!-- ************************************************************ -->
+    <!-- <div id="bodywithmenu"> -->
+    <div id="body">
+
+      <p>
+         <img src="underconstruction.jpg" alt="Under construction" />
+      </p>
+
+      <h2>Pagine</h2>
+      <p>
+         <a href="scacchi/index.shtml">Scacchi/Chess</a>
+      </p>
+      <p>
+         <a href="./maps.shtml">Esperimenti Google Maps</a>
+      </p>
+
+      <h2>Altre sezioni</h2>
+      <p>
+         <a href="http://citizens.norstrilia.net/">Citizens</a> blog
+      </p>
+      <p>
+         <a href="http://abba-dingo.norstrilia.net/">Abba-dingo</a> wiki
+      </p>
+      <p>
+         <a href="http://alpharalpha.norstrilia.net/">Alpha-Ralpha</a> photo gallery
+      </p>
+      <p>
+         <a href="http://space2.norstrilia.net/">Space2</a> subversion repositories
+      </p>
+      <ul>
+       <li><a href="http://space2.norstrilia.net/rod_projects/">Rod's Projects</a></li>
+       <li><a href="http://space2.norstrilia.net/rod_docs/">Rod's Docs</a></li>
+      </ul>
+
+      <h2>Attivit&aacute;...</h2>
+
+      <h3><a href="http://coderdojo.norstrilia.net/">2014 - Coderdojo experiments</a></h3>
+      <p>Prove e tutorial realizzati per Coderdojo Firenze nel periodo 2014...?</p>
+
+      <h3>The (old) javascript session</h3>
+      <ul>
+       <li><a href="./jssandbox.shtml">pagina</a> con prove</li>
+       <li><a href="http://abba-dingo.norstrilia.net/doku.php?id=tutorialjs">appunti</a> sul wiki</li>
+       <li><a href="./scripts/toggle_chesscom_alerts_mod.user.js">script greasemonkey</a> per chess.com</li>
+      </ul> 
+
+   </div>
+
+   <!--#include virtual="/incs/footer.html" -->
+    
+</body>
+
+</html>
+
+

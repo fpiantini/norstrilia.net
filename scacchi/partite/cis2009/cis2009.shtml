@@ -1,0 +1,388 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>Main page</TITLE>
+<link rel="stylesheet" type="text/css" href="../../../norstrilia.css" />
+<META name="GENERATOR" content="ChessBase HTML Publisher 2.0">
+<META name="KEYWORDS" content="chess, schach, cb80pub, schachpartie, chessgame">
+<META name="ROBOTS" content="noindex">
+<script  type="text/javascript" language="JavaScript" src="cis2009j0.js"></SCRIPT>
+<script  type="text/javascript" language="JavaScript" src="cis2009j0c.js"></SCRIPT>
+</head>
+<body link="#B70801" vlink="#637178" onLoad=" Init('../gif/'); InitGames();">
+    <div id="header">
+      <h1>Norstrilia.net - Scacchi</h1>
+    </div>
+<H1><CENTER>Partite CIS Promozione Toscana 2009</CENTER></H1><BR>
+<a name="game1"><CENTER><P><TABLE border cellpadding=6 bgcolor="#FEFDF0"><TR><TD width=350><BR>
+<CENTER><TABLE border bgcolor="#FEFDF0"><TR><TD>
+<IMG SRC="../gif/brw.gif" name='cis2009g0.htm'><IMG SRC="../gif/bnb.gif"><IMG SRC="../gif/bbw.gif"><IMG SRC="../gif/bqb.gif"><IMG SRC="../gif/bkw.gif"><IMG SRC="../gif/bbb.gif"><IMG SRC="../gif/bnw.gif"><IMG SRC="../gif/brb.gif"><BR><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><BR><IMG SRC="../gif/wrb.gif"><IMG SRC="../gif/wnw.gif"><IMG SRC="../gif/wbb.gif"><IMG SRC="../gif/wqw.gif"><IMG SRC="../gif/wkb.gif"><IMG SRC="../gif/wbw.gif"><IMG SRC="../gif/wnb.gif"><IMG SRC="../gif/wrw.gif"></TD></TR></TABLE></CENTER><BR>
+<FORM action ="" NAME="panel0">
+<CENTER><P><input type=button value=" Start " onClick="b0=GoStart(m0,n0,0,b0, 'cis2009g0.htm'); GMS(m0,n0,0,b0, 'cis2009g0.htm');">
+
+<input type=button value=" &lt;&lt; " onClick="MB_50();" onKeyPress="MB_50();" onDblClick="MB_50();">
+
+<input type=button value=" &lt; " onClick="MB0();" onKeyPress="MB0();" onDblClick="MB0();">
+
+<input type=button value=" &gt; " onClick="MF0(false);" onKeyPress="MF0(false);" onDblClick="MF0(false);">
+
+<input type=button value=" &gt;&gt; " onClick="MF_50();" onKeyPress="MF_50();" onDblClick="MF_50();">
+
+<input type=button value=" End " onClick="b0=GoEnd(m0,n0,0,b0, 'cis2009g0.htm'); GMS(m0,n0,0,b0, 'cis2009g0.htm');">
+
+</P></CENTER>
+<CENTER><DIV id="icis20090"></DIV></CENTER>
+<ILAYER><LAYER width=300><CENTER></CENTER></LAYER></ILAYER><BR>
+</TD>
+<TD>
+<h3>(1) Piantini,Francesco - Piampiani,Riccardo [C11]<BR>
+ CIS Toscana 2009, 08.02.2009<BR>
+</h3>
+<P>
+<a href="javascript:g0(1,0)" id='a0' class='e0' name="zeroAnchor">1.e4</a>
+ <a href="javascript:g0(2,0)" id='a1' class='e0'>e6</a>
+ <a href="javascript:g0(3,0)" id='a2' class='e0'>2.d4</a>
+ <a href="javascript:g0(4,0)" id='a3' class='e0'>d5</a>
+ <a href="javascript:g0(5,0)" id='a4' class='e0'>3.Cc3</a>
+ <a href="javascript:g0(6,0)" id='a5' class='e0'>Cf6</a>
+ <a href="javascript:g0(7,0)" id='a6' class='e0'>4.e5</a>
+ <a href="javascript:g0(8,0)" id='a7' class='e0'>Cfd7</a>
+ <a href="javascript:g0(9,0)" id='a8' class='e0'>5.Ad3</a>
+ <a href="javascript:g0(10,0)" id='a9' class='e0'>c5</a>
+ <a href="javascript:g0(11,0)" id='a10' class='e0'>6.Ae3</a>
+ <a href="javascript:g0(12,0)" id='a11' class='e0'>Cc6</a>
+ <a href="javascript:g0(13,0)" id='a12' class='e0'>7.Cf3</a>
+ <a href="javascript:g0(14,0)" id='a13' class='e0'>cxd4</a>
+ <a href="javascript:g0(15,0)" id='a14' class='e0'>8.Axd4</a>
+ <a href="javascript:g0(16,0)" id='a15' class='e0'>Cxd4</a>
+ <a href="javascript:g0(17,0)" id='a16' class='e0'>9.Cxd4</a>
+ <a href="javascript:g0(18,0)" id='a17' class='e0'>Cxe5</a>
+ <a href="javascript:g0(19,0)" id='a18' class='e0'>10.Ab5+</a>
+ <a href="javascript:g0(20,0)" id='a19' class='e0'>Ad7</a>
+ <a href="javascript:g0(21,0)" id='a20' class='e0'>11.0-0</a>
+ <a href="javascript:g0(22,0)" id='a21' class='e0'>a6</a>
+ <a href="javascript:g0(23,0)" id='a22' class='e0'>12.Axd7+</a>
+ <a href="javascript:g0(24,0)" id='a23' class='e0'>Dxd7</a>
+ <a href="javascript:g0(25,0)" id='a24' class='e0'>13.Te1</a>
+ <a href="javascript:g0(26,0)" id='a25' class='e0'>Cg6</a>
+ <a href="javascript:g0(27,0)" id='a26' class='e0'>14.Df3</a>
+ <a href="javascript:g0(28,0)" id='a27' class='e0'>Ae7</a>
+ <a href="javascript:g0(29,0)" id='a28' class='e0'>15.Cce2</a>
+ <a href="javascript:g0(30,0)" id='a29' class='e0'>0-0</a>
+ <a href="javascript:g0(31,0)" id='a30' class='e0'>16.Cg3</a>
+ <a href="javascript:g0(32,0)" id='a31' class='e0'>Af6</a>
+ <a href="javascript:g0(33,0)" id='a32' class='e0'>17.c3</a>
+ <a href="javascript:g0(34,0)" id='a33' class='e0'>Axd4</a>
+ <a href="javascript:g0(35,0)" id='a34' class='e0'>18.cxd4</a>
+ <a href="javascript:g0(36,0)" id='a35' class='e0'>Da4</a>
+ <a href="javascript:g0(37,0)" id='a36' class='e0'>19.De3</a>
+ <a href="javascript:g0(38,0)" id='a37' class='e0'>Tac8</a>
+ <a href="javascript:g0(39,0)" id='a38' class='e0'>20.b3</a>
+ <a href="javascript:g0(40,0)" id='a39' class='e0'>Da5</a>
+ <a href="javascript:g0(41,0)" id='a40' class='e0'>21.a4</a>
+ <a href="javascript:g0(42,0)" id='a41' class='e0'>Tc3</a>
+ <a href="javascript:g0(43,0)" id='a42' class='e0'>22.Dd2</a>
+ <a href="javascript:g0(44,0)" id='a43' class='e0'>Tfc8</a>
+ <a href="javascript:g0(45,0)" id='a44' class='e0'>23.Ce2</a>
+ <a href="javascript:g0(46,0)" id='a45' class='e0'>Dc7</a>
+ <a href="javascript:g0(47,0)" id='a46' class='e0'>24.Cxc3</a>
+ <a href="javascript:g0(48,0)" id='a47' class='e0'>Dxc3</a>
+ <a href="javascript:g0(49,0)" id='a48' class='e0'>25.Dxc3</a>
+ <a href="javascript:g0(50,0)" id='a49' class='e0'>Txc3</a>
+ <a href="javascript:g0(51,0)" id='a50' class='e0'>26.Tab1</a>
+ <a href="javascript:g0(52,0)" id='a51' class='e0'>Ce7</a>
+ <a href="javascript:g0(53,0)" id='a52' class='e0'>27.Tec1</a>
+ <a href="javascript:g0(54,0)" id='a53' class='e0'>Tc6</a>
+ <a href="javascript:g0(55,0)" id='a54' class='e0'>28.Txc6</a>
+ <a href="javascript:g0(56,0)" id='a55' class='e0'>Cxc6</a>
+ <a href="javascript:g0(57,0)" id='a56' class='e0'>29.Tc1</a>
+ <a href="javascript:g0(58,0)" id='a57' class='e0'>Rf8</a>
+ <a href="javascript:g0(59,0)" id='a58' class='e0'>30.Rf1</a>
+ <a href="javascript:g0(60,0)" id='a59' class='e0'>Re7</a>
+ <a href="javascript:g0(61,0)" id='a60' class='e0'>31.Re1</a>
+ <a href="javascript:g0(62,0)" id='a61' class='e0'>Rd7</a>
+ <a href="javascript:g0(63,0)" id='a62' class='e0'>32.Td1</a>
+ <a href="javascript:g0(64,0)" id='a63' class='e0'>Rc7</a>
+ <a href="javascript:g0(65,0)" id='a64' class='e0'>33.Re2</a>
+ <a href="javascript:g0(66,0)" id='a65' class='e0'>g6</a>
+ <a href="javascript:g0(67,0)" id='a66' class='e0'>34.Re3</a>
+ <a href="javascript:g0(68,0)" id='a67' class='e0'>Rd6</a>
+ <a href="javascript:g0(69,0)" id='a68' class='e0'>35.Rf4</a>
+ <a href="javascript:g0(70,0)" id='a69' class='e0'>h6</a>
+ <a href="javascript:g0(71,0)" id='a70' class='e0'>36.h4</a>
+ <a href="javascript:g0(72,0)" id='a71' class='e0'>a5</a>
+ <a href="javascript:g0(73,0)" id='a72' class='e0'>37.Td3</a>
+ <a href="javascript:g0(74,0)" id='a73' class='e0'>Re7</a>
+ <a href="javascript:g0(75,0)" id='a74' class='e0'>38.g4</a>
+ <a href="javascript:g0(76,0)" id='a75' class='e0'>Rd6</a>
+ <a href="javascript:g0(77,0)" id='a76' class='e0'>39.g5</a>
+ <a href="javascript:g0(78,0)" id='a77' class='e0'>h5</a>
+ <a href="javascript:g0(79,0)" id='a78' class='e0'>40.Re3</a>
+ <a href="javascript:g0(80,0)" id='a79' class='e0'>Ce7</a>
+ <a href="javascript:g0(81,0)" id='a80' class='e0'>41.Rd2</a>
+ <a href="javascript:g0(82,0)" id='a81' class='e0'>Cf5</a>
+ <a href="javascript:g0(83,0)" id='a82' class='e0'>42.Tf3</a>
+ <a href="javascript:g0(84,0)" id='a83' class='e0'>Re7</a>
+ <a href="javascript:g0(85,0)" id='a84' class='e0'>43.Tc3</a>
+ <a href="javascript:g0(86,0)" id='a85' class='e0'>Rd7</a>
+ <a href="javascript:g0(87,0)" id='a86' class='e0'>44.Tc5</a>
+ <a href="javascript:g0(88,0)" id='a87' class='e0'>b6</a>
+ <a href="javascript:g0(89,0)" id='a88' class='e0'>45.Tb5</a>
+ <a href="javascript:g0(90,0)" id='a89' class='e0'>Rc6</a>
+ <a href="javascript:g0(91,0)" id='a90' class='e0'>46.b4</a>
+ <a href="javascript:g0(92,0)" id='a91' class='e0'>Cxd4</a>
+ <a href="javascript:g0(93,0)" id='a92' class='e0'>47.bxa5</a>
+ <a href="javascript:g0(94,0)" id='a93' class='e0'>Cxb5</a>
+ <a href="javascript:g0(95,0)" id='a94' class='e0'>48.axb5+</a>
+ <a href="javascript:g0(96,0)" id='a95' class='e0'>Rxb5</a>
+ <a href="javascript:g0(97,0)" id='a96' class='e0'>49.axb6</a>
+ <a href="javascript:g0(98,0)" id='a97' class='e0'>Rxb6</a>
+ <a href="javascript:g0(99,0)" id='a98' class='e0'>50.Rd3</a>
+ <a href="javascript:g0(100,0)" id='a99' class='e0'>Rc6</a>
+ <a href="javascript:g0(101,0)" id='a100' class='e0'>51.Rd4</a>
+ <a href="javascript:g0(102,0)" id='a101' class='e0'>Rd6</a>
+ <a href="javascript:g0(103,0)" id='a102' class='e0'>52.f4</a>
+ <a href="javascript:g0(104,0)" id='a103' class='e0'>Rd7</a>
+ <a href="javascript:g0(105,0)" id='a104' class='e0'>53.Re5</a>
+ <a href="javascript:g0(106,0)" id='a105' class='e0'>Re7</a>
+ <a href="javascript:g0(107,0)" id='a106' class='e0'>54.Rd4</a>
+ <a href="javascript:g0(108,0)" id='a107' class='e0'>Rd6</a>
+ <a href="javascript:g0(109,0)" id='a108' class='e0'>55.Rd3</a>
+ <a href="javascript:g0(110,0)" id='a109' class='e0'>Rc5</a>
+ <a href="javascript:g0(111,0)" id='a110' class='e0'>56.Rc3</a>
+ <a href="javascript:g0(112,0)" id='a111' class='e0'>d4+</a>
+ <a href="javascript:g0(113,0)" id='a112' class='e0'>57.Rd3</a>
+ <a href="javascript:g0(114,0)" id='a113' class='e0'>Rd5</a>
+ <a href="javascript:g0(115,0)" id='a114' class='e0'>58.Rd2</a>
+ <a href="javascript:g0(116,0)" id='a115' class='e0'>Re4</a>
+ <a href="javascript:g0(117,0)" id='a116' class='e0'>59.Re2</a>
+ <a href="javascript:g0(118,0)" id='a117' class='e0'>d3+</a>
+ <a href="javascript:g0(119,0)" id='a118' class='e0'>60.Rd2</a>
+ <a href="javascript:g0(120,0)" id='a119' class='e0'>Rd4</a>
+ <a href="javascript:g0(121,0)" id='a120' class='e0'>61.Rd1</a>
+ <a href="javascript:g0(122,0)" id='a121' class='e0'>Re3</a>
+ <a href="javascript:g0(123,0)" id='a122' class='e0'>62.Re1</a>
+ <a href="javascript:g0(124,0)" id='a123' class='e0'>d2+</a>
+ <a href="javascript:g0(125,0)" id='a124' class='e0'>63.Rd1</a>
+ <a href="javascript:g0(126,0)" id='a125' class='e0'>Rxf4</a>
+ <a href="javascript:g0(127,0)" id='a126' class='e0'>64.Rxd2</a>
+ 0-1</P>
+</TD></TR></TABLE></P><BR><BR></CENTER>
+<a name="game2"><CENTER><P><TABLE border cellpadding=6 bgcolor="#FEFDF0"><TR><TD width=350><BR>
+<CENTER><TABLE border bgcolor="#FEFDF0"><TR><TD>
+<IMG SRC="../gif/brw.gif" name='cis2009g1.htm'><IMG SRC="../gif/bnb.gif"><IMG SRC="../gif/bbw.gif"><IMG SRC="../gif/bqb.gif"><IMG SRC="../gif/bkw.gif"><IMG SRC="../gif/bbb.gif"><IMG SRC="../gif/bnw.gif"><IMG SRC="../gif/brb.gif"><BR><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><BR><IMG SRC="../gif/wrb.gif"><IMG SRC="../gif/wnw.gif"><IMG SRC="../gif/wbb.gif"><IMG SRC="../gif/wqw.gif"><IMG SRC="../gif/wkb.gif"><IMG SRC="../gif/wbw.gif"><IMG SRC="../gif/wnb.gif"><IMG SRC="../gif/wrw.gif"></TD></TR></TABLE></CENTER><BR>
+<FORM action ="" NAME="panel1">
+<CENTER><P><input type=button value=" Start " onClick="b1=GoStart(m1,n1,1,b1, 'cis2009g1.htm'); GMS(m1,n1,1,b1, 'cis2009g1.htm');">
+
+<input type=button value=" &lt;&lt; " onClick="MB_51();" onKeyPress="MB_51();" onDblClick="MB_51();">
+
+<input type=button value=" &lt; " onClick="MB1();" onKeyPress="MB1();" onDblClick="MB1();">
+
+<input type=button value=" &gt; " onClick="MF1(false);" onKeyPress="MF1(false);" onDblClick="MF1(false);">
+
+<input type=button value=" &gt;&gt; " onClick="MF_51();" onKeyPress="MF_51();" onDblClick="MF_51();">
+
+<input type=button value=" End " onClick="b1=GoEnd(m1,n1,1,b1, 'cis2009g1.htm'); GMS(m1,n1,1,b1, 'cis2009g1.htm');">
+
+</P></CENTER>
+<CENTER><DIV id="icis20091"></DIV></CENTER>
+<ILAYER><LAYER width=300><CENTER></CENTER></LAYER></ILAYER><BR>
+</TD>
+<TD>
+<h3>(2) Soldaini,Francesco - Piantini,Francesco [D70]<BR>
+ CIS Toscana 2009, 08.03.2009<BR>
+</h3>
+<P>
+<a href="javascript:g1(1,0)" id='a0' class='e0' name="zeroAnchor">1.d4</a>
+ <a href="javascript:g1(2,0)" id='a1' class='e0'>Cf6</a>
+ <a href="javascript:g1(3,0)" id='a2' class='e0'>2.c4</a>
+ <a href="javascript:g1(4,0)" id='a3' class='e0'>g6</a>
+ <a href="javascript:g1(5,0)" id='a4' class='e0'>3.Cf3</a>
+ <a href="javascript:g1(6,0)" id='a5' class='e0'>d5</a>
+ <a href="javascript:g1(7,0)" id='a6' class='e0'>4.e3</a>
+ <a href="javascript:g1(8,0)" id='a7' class='e0'>Ag7</a>
+ <a href="javascript:g1(9,0)" id='a8' class='e0'>5.Ae2</a>
+ <a href="javascript:g1(10,0)" id='a9' class='e0'>dxc4</a>
+ <a href="javascript:g1(11,0)" id='a10' class='e0'>6.Axc4</a>
+ <a href="javascript:g1(12,0)" id='a11' class='e0'>0-0</a>
+ <a href="javascript:g1(13,0)" id='a12' class='e0'>7.0-0</a>
+ <a href="javascript:g1(14,0)" id='a13' class='e0'>b6</a>
+ <a href="javascript:g1(15,0)" id='a14' class='e0'>8.Cc3</a>
+ <a href="javascript:g1(16,0)" id='a15' class='e0'>Ab7</a>
+ <a href="javascript:g1(17,0)" id='a16' class='e0'>9.Te1</a>
+ <a href="javascript:g1(18,0)" id='a17' class='e0'>Cbd7</a>
+ <a href="javascript:g1(19,0)" id='a18' class='e0'>10.e4</a>
+ <a href="javascript:g1(20,0)" id='a19' class='e0'>e6</a>
+ <a href="javascript:g1(21,0)" id='a20' class='e0'>11.e5</a>
+ <a href="javascript:g1(22,0)" id='a21' class='e0'>Cd5</a>
+ <a href="javascript:g1(23,0)" id='a22' class='e0'>12.Ag5</a>
+ <a href="javascript:g1(24,0)" id='a23' class='e0'>Cxc3</a>
+ <a href="javascript:g1(25,0)" id='a24' class='e0'>13.Axd8</a>
+ <a href="javascript:g1(26,0)" id='a25' class='e0'>Cxd1</a>
+ <a href="javascript:g1(27,0)" id='a26' class='e0'>14.Axc7</a>
+ <a href="javascript:g1(28,0)" id='a27' class='e0'>Tfc8</a>
+ 0-1</P>
+</TD></TR></TABLE></P><BR><BR></CENTER>
+<a name="game3"><CENTER><P><TABLE border cellpadding=6 bgcolor="#FEFDF0"><TR><TD width=350><BR>
+<CENTER><TABLE border bgcolor="#FEFDF0"><TR><TD>
+<IMG SRC="../gif/brw.gif" name='cis2009g2.htm'><IMG SRC="../gif/bnb.gif"><IMG SRC="../gif/bbw.gif"><IMG SRC="../gif/bqb.gif"><IMG SRC="../gif/bkw.gif"><IMG SRC="../gif/bbb.gif"><IMG SRC="../gif/bnw.gif"><IMG SRC="../gif/brb.gif"><BR><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><IMG SRC="../gif/bpb.gif"><IMG SRC="../gif/bpw.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><BR><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><IMG SRC="../gif/b.gif"><IMG SRC="../gif/w.gif"><BR><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><IMG SRC="../gif/wpw.gif"><IMG SRC="../gif/wpb.gif"><BR><IMG SRC="../gif/wrb.gif"><IMG SRC="../gif/wnw.gif"><IMG SRC="../gif/wbb.gif"><IMG SRC="../gif/wqw.gif"><IMG SRC="../gif/wkb.gif"><IMG SRC="../gif/wbw.gif"><IMG SRC="../gif/wnb.gif"><IMG SRC="../gif/wrw.gif"></TD></TR></TABLE></CENTER><BR>
+<FORM action ="" NAME="panel2">
+<CENTER><P><input type=button value=" Start " onClick="b2=GoStart(m2,n2,2,b2, 'cis2009g2.htm'); GMS(m2,n2,2,b2, 'cis2009g2.htm');">
+
+<input type=button value=" &lt;&lt; " onClick="MB_52();" onKeyPress="MB_52();" onDblClick="MB_52();">
+
+<input type=button value=" &lt; " onClick="MB2();" onKeyPress="MB2();" onDblClick="MB2();">
+
+<input type=button value=" &gt; " onClick="MF2(false);" onKeyPress="MF2(false);" onDblClick="MF2(false);">
+
+<input type=button value=" &gt;&gt; " onClick="MF_52();" onKeyPress="MF_52();" onDblClick="MF_52();">
+
+<input type=button value=" End " onClick="b2=GoEnd(m2,n2,2,b2, 'cis2009g2.htm'); GMS(m2,n2,2,b2, 'cis2009g2.htm');">
+
+</P></CENTER>
+<CENTER><DIV id="icis20092"></DIV></CENTER>
+<ILAYER><LAYER width=300><CENTER></CENTER></LAYER></ILAYER><BR>
+</TD>
+<TD>
+<h3>(3) Piantini,Francesco - Menestrina,Fabrizio [B30]<BR>
+ CIS Toscana 2009, 05.04.2009<BR>
+</h3>
+<P>
+<a href="javascript:g2(1,0)" id='a0' class='e0' name="zeroAnchor">1.e4</a>
+ <a href="javascript:g2(2,0)" id='a1' class='e0'>c5</a>
+ <a href="javascript:g2(3,0)" id='a2' class='e0'>2.Cc3</a>
+ <a href="javascript:g2(4,0)" id='a3' class='e0'>e5</a>
+ <a href="javascript:g2(5,0)" id='a4' class='e0'>3.Cf3</a>
+ <a href="javascript:g2(6,0)" id='a5' class='e0'>Cc6</a>
+ <a href="javascript:g2(7,0)" id='a6' class='e0'>4.Ab5</a>
+ <a href="javascript:g2(8,0)" id='a7' class='e0'>Cge7</a>
+ <a href="javascript:g2(9,0)" id='a8' class='e0'>5.0-0</a>
+ <a href="javascript:g2(10,0)" id='a9' class='e0'>h6</a>
+ <a href="javascript:g2(11,0)" id='a10' class='e0'>6.Axc6</a>
+ <a href="javascript:g2(12,0)" id='a11' class='e0'>Cxc6</a>
+ <a href="javascript:g2(13,0)" id='a12' class='e0'>7.d3</a>
+ <a href="javascript:g2(14,0)" id='a13' class='e0'>d6</a>
+ <a href="javascript:g2(15,0)" id='a14' class='e0'>8.Ae3</a>
+ <a href="javascript:g2(16,0)" id='a15' class='e0'>Ae6</a>
+ <a href="javascript:g2(17,0)" id='a16' class='e0'>9.a3</a>
+ <a href="javascript:g2(18,0)" id='a17' class='e0'>Ae7</a>
+ <a href="javascript:g2(19,0)" id='a18' class='e0'>10.Dd2</a>
+ <a href="javascript:g2(20,0)" id='a19' class='e0'>Ag4</a>
+ <a href="javascript:g2(21,0)" id='a20' class='e0'>11.Ce1</a>
+ <a href="javascript:g2(22,0)" id='a21' class='e0'>Cd4</a>
+ <a href="javascript:g2(23,0)" id='a22' class='e0'>12.f4</a>
+ <a href="javascript:g2(24,0)" id='a23' class='e0'>f6</a>
+ <a href="javascript:g2(25,0)" id='a24' class='e0'>13.Axd4</a>
+ <a href="javascript:g2(26,0)" id='a25' class='e0'>cxd4</a>
+ <a href="javascript:g2(27,0)" id='a26' class='e0'>14.Cd5</a>
+ <a href="javascript:g2(28,0)" id='a27' class='e0'>Ae6</a>
+ <a href="javascript:g2(29,0)" id='a28' class='e0'>15.c4</a>
+ <a href="javascript:g2(30,0)" id='a29' class='e0'>Af7</a>
+ <a href="javascript:g2(31,0)" id='a30' class='e0'>16.f5</a>
+ <a href="javascript:g2(32,0)" id='a31' class='e0'>a6</a>
+ <a href="javascript:g2(33,0)" id='a32' class='e0'>17.Tc1</a>
+ <a href="javascript:g2(34,0)" id='a33' class='e0'>Axd5</a>
+ <a href="javascript:g2(35,0)" id='a34' class='e0'>18.cxd5</a>
+ <a href="javascript:g2(36,0)" id='a35' class='e0'>Tc8</a>
+ <a href="javascript:g2(37,0)" id='a36' class='e0'>19.Cc2</a>
+ <a href="javascript:g2(38,0)" id='a37' class='e0'>0-0</a>
+ <a href="javascript:g2(39,0)" id='a38' class='e0'>20.Cb4</a>
+ <a href="javascript:g2(40,0)" id='a39' class='e0'>Tc5</a>
+ <a href="javascript:g2(41,0)" id='a40' class='e0'>21.Tc4</a>
+ <a href="javascript:g2(42,0)" id='a41' class='e0'>a5</a>
+ <a href="javascript:g2(43,0)" id='a42' class='e0'>22.Ca2</a>
+ <a href="javascript:g2(44,0)" id='a43' class='e0'>b5</a>
+ <a href="javascript:g2(45,0)" id='a44' class='e0'>23.Txc5</a>
+ <a href="javascript:g2(46,0)" id='a45' class='e0'>dxc5</a>
+ <a href="javascript:g2(47,0)" id='a46' class='e0'>24.Tc1</a>
+ <a href="javascript:g2(48,0)" id='a47' class='e0'>Db6</a>
+ <a href="javascript:g2(49,0)" id='a48' class='e0'>25.b4</a>
+ <a href="javascript:g2(50,0)" id='a49' class='e0'>axb4</a>
+ <a href="javascript:g2(51,0)" id='a50' class='e0'>26.axb4</a>
+ <a href="javascript:g2(52,0)" id='a51' class='e0'>c4</a>
+ <a href="javascript:g2(53,0)" id='a52' class='e0'>27.dxc4</a>
+ <a href="javascript:g2(54,0)" id='a53' class='e0'>d3+</a>
+ <a href="javascript:g2(55,0)" id='a54' class='e0'>28.Rh1</a>
+ <a href="javascript:g2(56,0)" id='a55' class='e0'>bxc4</a>
+ <a href="javascript:g2(57,0)" id='a56' class='e0'>29.Txc4</a>
+ <a href="javascript:g2(58,0)" id='a57' class='e0'>Da6</a>
+ <a href="javascript:g2(59,0)" id='a58' class='e0'>30.Tc6</a>
+ <a href="javascript:g2(60,0)" id='a59' class='e0'>Da4</a>
+ <a href="javascript:g2(61,0)" id='a60' class='e0'>31.g3</a>
+ <a href="javascript:g2(62,0)" id='a61' class='e0'>Ta8</a>
+ <a href="javascript:g2(63,0)" id='a62' class='e0'>32.Cc1</a>
+ <a href="javascript:g2(64,0)" id='a63' class='e0'>Db5</a>
+ <a href="javascript:g2(65,0)" id='a64' class='e0'>33.Dxd3</a>
+ <a href="javascript:g2(66,0)" id='a65' class='e0'>Dxb4</a>
+ <a href="javascript:g2(67,0)" id='a66' class='e0'>34.d6</a>
+ <a href="javascript:g2(68,0)" id='a67' class='e0'>Ad8</a>
+ <a href="javascript:g2(69,0)" id='a68' class='e0'>35.Db3+</a>
+ <a href="javascript:g2(70,0)" id='a69' class='e0'>Dxb3</a>
+ <a href="javascript:g2(71,0)" id='a70' class='e0'>36.Cxb3</a>
+ <a href="javascript:g2(72,0)" id='a71' class='e0'>Rf8</a>
+ <a href="javascript:g2(73,0)" id='a72' class='e0'>37.d7</a>
+ <a href="javascript:g2(74,0)" id='a73' class='e0'>Ta7</a>
+ <a href="javascript:g2(75,0)" id='a74' class='e0'>38.Cc5</a>
+ <a href="javascript:g2(76,0)" id='a75' class='e0'>Ta1+</a>
+ <a href="javascript:g2(77,0)" id='a76' class='e0'>39.Rg2</a>
+ <a href="javascript:g2(78,0)" id='a77' class='e0'>Ta2+</a>
+ <a href="javascript:g2(79,0)" id='a78' class='e0'>40.Rh3</a>
+ <a href="javascript:g2(80,0)" id='a79' class='e0'>Td2</a>
+ <a href="javascript:g2(81,0)" id='a80' class='e0'>41.Te6</a>
+ <a href="javascript:g2(82,0)" id='a81' class='e0'>Ae7</a>
+ <a href="javascript:g2(83,0)" id='a82' class='e0'>42.Tc6</a>
+ <a href="javascript:g2(84,0)" id='a83' class='e0'>Ad8</a>
+ <a href="javascript:g2(85,0)" id='a84' class='e0'>43.Ce6+</a>
+ <a href="javascript:g2(86,0)" id='a85' class='e0'>Re7</a>
+ <a href="javascript:g2(87,0)" id='a86' class='e0'>44.Cxd8</a>
+ <a href="javascript:g2(88,0)" id='a87' class='e0'>Rxd8</a>
+ <a href="javascript:g2(89,0)" id='a88' class='e0'>45.Tc8+</a>
+ <a href="javascript:g2(90,0)" id='a89' class='e0'>Rxd7</a>
+ <a href="javascript:g2(91,0)" id='a90' class='e0'>46.Tg8</a>
+ <a href="javascript:g2(92,0)" id='a91' class='e0'>Te2</a>
+ <a href="javascript:g2(93,0)" id='a92' class='e0'>47.Txg7+</a>
+ <a href="javascript:g2(94,0)" id='a93' class='e0'>Rd6</a>
+ <a href="javascript:g2(95,0)" id='a94' class='e0'>48.Tf7</a>
+ <a href="javascript:g2(96,0)" id='a95' class='e0'>Txe4</a>
+ <a href="javascript:g2(97,0)" id='a96' class='e0'>49.Txf6+</a>
+ <a href="javascript:g2(98,0)" id='a97' class='e0'>Re7</a>
+ <a href="javascript:g2(99,0)" id='a98' class='e0'>50.Txh6</a>
+ <a href="javascript:g2(100,0)" id='a99' class='e0'>Te2</a>
+ <a href="javascript:g2(101,0)" id='a100' class='e0'>51.Rg4</a>
+ <a href="javascript:g2(102,0)" id='a101' class='e0'>Rf7</a>
+ <a href="javascript:g2(103,0)" id='a102' class='e0'>52.Rg5</a>
+ <a href="javascript:g2(104,0)" id='a103' class='e0'>e4</a>
+ <a href="javascript:g2(105,0)" id='a104' class='e0'>53.h4</a>
+ <a href="javascript:g2(106,0)" id='a105' class='e0'>e3</a>
+ <a href="javascript:g2(107,0)" id='a106' class='e0'>54.Te6</a>
+ <a href="javascript:g2(108,0)" id='a107' class='e0'>Tg2</a>
+ <a href="javascript:g2(109,0)" id='a108' class='e0'>55.Txe3</a>
+ <a href="javascript:g2(110,0)" id='a109' class='e0'>Tg1</a>
+ <a href="javascript:g2(111,0)" id='a110' class='e0'>56.g4</a>
+ <a href="javascript:g2(112,0)" id='a111' class='e0'>Ta1</a>
+ <a href="javascript:g2(113,0)" id='a112' class='e0'>57.f6</a>
+ <a href="javascript:g2(114,0)" id='a113' class='e0'>Ta7</a>
+ <a href="javascript:g2(115,0)" id='a114' class='e0'>58.Te7+</a>
+ <a href="javascript:g2(116,0)" id='a115' class='e0'>Txe7</a>
+ <a href="javascript:g2(117,0)" id='a116' class='e0'>59.fxe7</a>
+ <a href="javascript:g2(118,0)" id='a117' class='e0'>Rxe7</a>
+ <a href="javascript:g2(119,0)" id='a118' class='e0'>60.Rg6</a>
+ <a href="javascript:g2(120,0)" id='a119' class='e0'>Rf8</a>
+ <a href="javascript:g2(121,0)" id='a120' class='e0'>61.h5</a>
+ <a href="javascript:g2(122,0)" id='a121' class='e0'>Rg8</a>
+ <a href="javascript:g2(123,0)" id='a122' class='e0'>62.h6</a>
+ <a href="javascript:g2(124,0)" id='a123' class='e0'>Rh8</a>
+ <a href="javascript:g2(125,0)" id='a124' class='e0'>63.g5</a>
+ <a href="javascript:g2(126,0)" id='a125' class='e0'>Rg8</a>
+ <a href="javascript:g2(127,0)" id='a126' class='e0'>64.h7+</a>
+ <a href="javascript:g2(128,0)" id='a127' class='e0'>Rh8</a>
+ <a href="javascript:g2(129,0)" id='a128' class='e0'>65.Rf7</a>
+ <a href="javascript:g2(130,0)" id='a129' class='e0'>Rxh7</a>
+ <a href="javascript:g2(131,0)" id='a130' class='e0'>66.g6+</a>
+ 1-0</P>
+</TD></TR></TABLE></P><BR><BR></CENTER>
+All games on this page as PGN <a href="cis2009.pgn">here</a><p align=right><font size=1>Generated with <a href="http://www.chessbase.de/" target="_blank">ChessBase 2007 Premium</a><br>Download CBLight for free  <a href="http://www.chessbase.com/download/cblight2007/index.asp" target="_blank">here</a></font></p>
+<!--#include virtual="/incs/footer.html" -->
+</body>
+</html>

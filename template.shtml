@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+
+   <title>
+   Norstrilia.net - TITLE
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="./norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 29/9/2009" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="PAGE DESCRIPTION" />
+
+   <meta name="keywords" content="Norstrilia" />
+   <!-- End of Meta informations -->
+
+</head>
+
+
+<body>
+    <div id="header">
+      <h1>Norstrilia.net TEMPLATE PAGE</h1>
+    </div>
+
+
+    <!-- ************************************************************ -->
+    <!-- <div id="bodywithmenu"> -->
+    <div id="body">
+
+      <p>
+         template page
+      </p>
+
+   </div>
+
+   <!--#include virtual="/incs/footer.html" -->
+    
+</body>
+
+</html>
+
+

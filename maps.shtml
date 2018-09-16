@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+
+<head>
+   <title>
+   Norstrilia.Net - Maps Experiments Page
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="./norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 8/1/2007" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="Norstrilia Home Page" />
+
+   <meta name="keywords" content="Norstrilia" />
+   <!-- End of Meta informations -->
+
+   <!-- Google Maps related informations and scripts -->
+   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAUgjisYXKtyDFStH2Ok_2NhQxXko6eFLYQyELAhdrZbGEeEFVbBTp2jDG48XMsz4wz8s4OneoR3KPYA&amp;sensor=false" type="text/javascript"></script>
+
+   <script type="text/javascript">
+   function initialize() {
+     if (GBrowserIsCompatible()) {
+       var map = new GMap2(document.getElementById("map_canvas"));
+       map.setCenter(new GLatLng(  43.8398674, 11.1786503), 17);
+       map.setUIToDefault();
+      }
+   }
+   </script>
+   <!-- End of Google Maps section -->
+
+</head>
+
+
+<body onload="initialize()" onunload="GUnload()">
+
+    <div id="header">
+      <h1>Norstrilia.net Maps Page</h1>
+    </div>
+
+
+    <!-- ************************************************************ -->
+    <!-- <div id="bodywithmenu"> -->
+    <div id="body">
+
+      <p>
+         Se quel guerrier io fossi....
+      </p>
+
+
+   <div id="map_canvas" style="width: 500px; height: 300px">
+   </div>
+
+      <p>
+         ...se il mio sogno si avverasse
+      </p>
+   </div>
+
+   <!--#include virtual="/incs/footer.html" -->
+
+
+</body>
+
+</html>
+
+
+

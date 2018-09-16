@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+
+   <title>
+   Prove javascript
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="./norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 29/9/2009" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="prove javascript" />
+
+   <meta name="keywords" content="Norstrilia" />
+   <!-- End of Meta informations -->
+
+   <script type="text/javascript" src="/scripts/prove.js"></script>
+
+</head>
+
+
+<body onload="pf_alert()">
+   <div id="header">
+     <h1>Prove javascript</h1>
+   </div>
+
+
+   <!-- ************************************************************ -->
+   <!-- <div id="bodywithmenu"> -->
+   <div id="body">
+
+   <script type="text/javascript">
+      document.write("<p>Hello World!</p>");
+   </script>
+
+   <script type="text/javascript">
+   {
+      // Write a heading
+      document.write("<h1>Example of block</h1>");
+      // Write a paragraph
+      document.write("<p>se quel guerrier io fossi...");
+      document.write("se il mio sogno si avverasse</p>");
+   }
+   </script> 
+
+   <script type="text/javascript">
+      pf_some_arithmetic();
+   </script> 
+
+   </div>
+
+   <!--#include virtual="/incs/footer.html" -->
+    
+</body>
+
+</html>

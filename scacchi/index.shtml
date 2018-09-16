@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+
+   <title>
+   Norstrilia.Net - Scacchi
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="../norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 12/4/2009" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="Norstrilia Pagina dedicata agli scacchi" />
+
+   <meta name="keywords" content="Norstrilia Scacchi Chess" />
+   <!-- End of Meta informations -->
+
+</head>
+
+
+<body>
+    <div id="header">
+      <h1>Norstrilia.net - Scacchi</h1>
+    </div>
+
+
+    <!-- ************************************************************ -->
+    <div id="body">
+
+    <h1>
+        Partite
+	</h1>
+<!--
+    <h2>
+        Torneo sociale A.D. Firenze Scacchi fine 2009
+	</h2>
+	<p>Partite giocate da Francesco Piantini nel torneo sociale di fine 2009 tenuto presso
+	la societ&agrave; <a href="http://www.firenzescacchi.it/">A.D. Firenze Scacchi</a>.</p>
+
+	<p>TO BE COMPLETED</p>
+-->
+    <h2>
+        CIS Promozione 2009
+	</h2>
+	<p><a href="partite/cis2009/cis2009.shtml">Partite</a> giocate da Francesco Piantini nel campionato regionale 
+	toscano di promozione CIS 2009 della Federazione Scacchistica Italiana con la 
+	squadra "Belle Speranze" della societ&agrave;
+	<a href="http://www.firenzescacchi.it/">A.D. Firenze Scacchi</a>.</p>
+<!--
+    <h2>
+        Chess.com (Settembre 2007 - Aprile 2009)
+	</h2>
+	<p>Partite giocate da <a href="http://www.chess.com/members/view/fpiantini"> 
+	Francesco Piantini</a> su <a href="http://www.chess.com/">Chess.com</a> nel periodo
+	Settembre 2007 - Aprile 2009</p>
+
+	<p>TO BE COMPLETED</p>
+-->
+	</div>
+
+	<!-- ************************************************************ -->
+   <!--#include virtual="/incs/footer.html" -->
+    
+</body>
+
+</html>
+
+

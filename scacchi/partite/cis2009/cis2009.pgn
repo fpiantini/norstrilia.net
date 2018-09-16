@@ -1,0 +1,66 @@
+[Event "CIS Toscana 2009"]
+[Site "?"]
+[Date "2009.02.08"]
+[Round "?"]
+[White "Piantini, Francesco"]
+[Black "Piampiani, Riccardo"]
+[Result "0-1"]
+[ECO "C11"]
+[PlyCount "127"]
+[EventDate "2009.??.??"]
+[EventType "team"]
+[EventCountry "ITA"]
+[WhiteTeam "A.D. FIRENZE SCACCHI"]
+[BlackTeam "S.D. CIRCOLO SCACCHISTICO EMPOLESE"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Bd3 c5 6. Be3 Nc6 7. Nf3 cxd4 8.
+Bxd4 Nxd4 9. Nxd4 Nxe5 10. Bb5+ Bd7 11. O-O a6 12. Bxd7+ Qxd7 13. Re1 Ng6 14.
+Qf3 Be7 15. Nce2 O-O 16. Ng3 Bf6 17. c3 Bxd4 18. cxd4 Qa4 19. Qe3 Rac8 20. b3
+Qa5 21. a4 Rc3 22. Qd2 Rfc8 23. Ne2 Qc7 24. Nxc3 Qxc3 25. Qxc3 Rxc3 26. Rab1
+Ne7 27. Rec1 Rc6 28. Rxc6 Nxc6 29. Rc1 Kf8 30. Kf1 Ke7 31. Ke1 Kd7 32. Rd1 Kc7
+33. Ke2 g6 34. Ke3 Kd6 35. Kf4 h6 36. h4 a5 37. Rd3 Ke7 38. g4 Kd6 39. g5 h5
+40. Ke3 Ne7 41. Kd2 Nf5 42. Rf3 Ke7 43. Rc3 Kd7 44. Rc5 b6 45. Rb5 Kc6 46. b4
+Nxd4 47. bxa5 Nxb5 48. axb5+ Kxb5 49. axb6 Kxb6 50. Kd3 Kc6 51. Kd4 Kd6 52. f4
+Kd7 53. Ke5 Ke7 54. Kd4 Kd6 55. Kd3 Kc5 56. Kc3 d4+ 57. Kd3 Kd5 58. Kd2 Ke4 59.
+Ke2 d3+ 60. Kd2 Kd4 61. Kd1 Ke3 62. Ke1 d2+ 63. Kd1 Kxf4 64. Kxd2 0-1
+
+[Event "CIS Toscana 2009"]
+[Site "?"]
+[Date "2009.03.08"]
+[Round "?"]
+[White "Soldaini, Francesco"]
+[Black "Piantini, Francesco"]
+[Result "0-1"]
+[ECO "D70"]
+[PlyCount "28"]
+[WhiteTeam "S.D. CIRCOLO SCACCHISTICO EMPOLESE"]
+[BlackTeam "A.D. FIRENZE SCACCHI"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 d5 4. e3 Bg7 5. Be2 dxc4 6. Bxc4 O-O 7. O-O b6 8. Nc3
+Bb7 9. Re1 Nbd7 10. e4 e6 11. e5 Nd5 12. Bg5 Nxc3 13. Bxd8 Nxd1 14. Bxc7 Rfc8
+0-1
+
+[Event "CIS Toscana 2009"]
+[Site "?"]
+[Date "2009.04.05"]
+[Round "?"]
+[White "Piantini, Francesco"]
+[Black "Menestrina, Fabrizio"]
+[Result "1-0"]
+[ECO "B30"]
+[PlyCount "131"]
+[WhiteTeam "A.D. FIRENZE SCACCHI"]
+[BlackTeam "A.D. SCACCHI CIRCOLO VIE NUOVE"]
+
+1. e4 c5 2. Nc3 e5 3. Nf3 Nc6 4. Bb5 Nge7 5. O-O h6 6. Bxc6 Nxc6 7. d3 d6 8.
+Be3 Be6 9. a3 Be7 10. Qd2 Bg4 11. Ne1 Nd4 12. f4 f6 13. Bxd4 cxd4 14. Nd5 Be6
+15. c4 Bf7 16. f5 a6 17. Rc1 Bxd5 18. cxd5 Rc8 19. Nc2 O-O 20. Nb4 Rc5 21. Rc4
+a5 22. Na2 b5 23. Rxc5 dxc5 24. Rc1 Qb6 25. b4 axb4 26. axb4 c4 27. dxc4 d3+
+28. Kh1 bxc4 29. Rxc4 Qa6 30. Rc6 Qa4 31. g3 Ra8 32. Nc1 Qb5 33. Qxd3 Qxb4 34.
+d6 Bd8 35. Qb3+ Qxb3 36. Nxb3 Kf8 37. d7 Ra7 38. Nc5 Ra1+ 39. Kg2 Ra2+ 40. Kh3
+Rd2 41. Re6 Be7 42. Rc6 Bd8 43. Ne6+ Ke7 44. Nxd8 Kxd8 45. Rc8+ Kxd7 46. Rg8
+Re2 47. Rxg7+ Kd6 48. Rf7 Rxe4 49. Rxf6+ Ke7 50. Rxh6 Re2 51. Kg4 Kf7 52. Kg5
+e4 53. h4 e3 54. Re6 Rg2 55. Rxe3 Rg1 56. g4 Ra1 57. f6 Ra7 58. Re7+ Rxe7 59.
+fxe7 Kxe7 60. Kg6 Kf8 61. h5 Kg8 62. h6 Kh8 63. g5 Kg8 64. h7+ Kh8 65. Kf7 Kxh7
+66. g6+ 1-0
+
