@@ -25,7 +25,7 @@
    <meta name="keywords" content="Norstrilia" />
    <!-- End of Meta informations -->
 
-   <script type="text/javascript" src="/scripts/prove.js"></script>
+   <script type="text/javascript" src="./scripts/prove.js"></script>
 
 </head>
 
