@@ -45,7 +45,7 @@
       <h2>In progress...</h2>
       <ul>
         <li>
-          <a href="./maps.shtml">Esperimenti con mappe (leaflet)</a>
+          <a href="./maps/maps.shtml">Esperimenti con mappe (leaflet)</a>
         </li>
         <li>
           <a href="http://coderdojo.norstrilia.net/">2014 - Coderdojo experiments.</a>
@@ -74,7 +74,7 @@
       <h2>Archivio</h2>
       <p>Vecchie pagine non pi&ugrave; mantenute.</p>
       <ul>
-        <li><a href="./googlemaps.shtml">Esperimenti Google Maps</a></li>
+        <li><a href="./maps/googlemaps.shtml">Esperimenti Google Maps</a></li>
         <li><a href="scacchi/index.shtml">Esperimenti visualizzazione partite di Scacchi/Chess</a></li>
         <li><a href="js/index.shtml">The (old...) Javascript session</a></li>
       </ul>
