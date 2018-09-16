@@ -11,7 +11,7 @@
    </title>
 
    <!-- Style sheet inclusion -->
-   <link rel="stylesheet" type="text/css" href="./norstrilia.css" />
+   <link rel="stylesheet" type="text/css" href="../norstrilia.css" />
 
    <!-- Meta informations. Change to actual values -->
    <meta name="author" content="Rod McBan" />
@@ -60,7 +60,7 @@
 
    </div>
 
-   <!--#include virtual="/incs/footer.html" -->
+   <!--#include virtual="../incs/footer.html" -->
     
 </body>
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+<head>
+
+   <title>
+   Norstrilia.net - The Javascript session
+   </title>
+
+   <!-- Style sheet inclusion -->
+   <link rel="stylesheet" type="text/css" href="../norstrilia.css" />
+
+   <!-- Meta informations. Change to actual values -->
+   <meta name="author" content="Rod McBan" />
+
+   <meta name="revised" content="Rod McBan, 16/9/2018" />
+
+   <meta name="generator" content="Text Editor" />
+
+   <meta name="description" content="The Javascript session" />
+
+   <meta name="keywords" content="Norstrilia" />
+   <!-- End of Meta informations -->
+
+</head>
+
+
+<body>
+    <div id="header">
+      <h1>Norstrilia.net - The (old...) Javascript session</h1>
+    </div>
+
+
+    <!-- ************************************************************ -->
+    <!-- <div id="bodywithmenu"> -->
+    <div id="body">
+
+      <ul>
+       <li><a href="./jssandbox.shtml">pagina</a> con prove</li>
+       <li><a href="http://abba-dingo.norstrilia.net/doku.php?id=tutorialjs">appunti</a> sul wiki</li>
+       <li><a href="./scripts/toggle_chesscom_alerts_mod.user.js">script greasemonkey</a> per chess.com</li>
+      </ul>
+
+   </div>
+
+   <!--#include virtual="../incs/footer.html" -->
+
+</body>
+
+</html>
+
+
