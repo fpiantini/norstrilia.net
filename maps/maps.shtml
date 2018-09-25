@@ -34,7 +34,8 @@
       crossorigin="">
     </script>
 
-    <script type="text/javascript" src="myleaflet.js"></script>
+    <script src="js/leaflet-providers.js"></script>
+    <script type="text/javascript" src="js/myleaflet.js"></script>
 
 
 </head>
@@ -55,6 +56,18 @@
          Esperimenti con mappe generate con
          <a href="https://leafletjs.com/">Leaflet</a>
       </p>
+
+    <form action="#" method="post" class="demoForm" id="baseMapForm">
+      <fieldset>
+        <legend>Scegli la mappa base:</legend>
+
+        <p>
+          <label><input type="radio" name="basemap" value="otm" checked="checked"/> OpenTopoMap</label>
+          <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label>
+          <label><input type="radio" name="basemap" value="mb" /> MapBox</label>
+        </p>
+      </fieldset>
+    </form>
 
    </div>
 
