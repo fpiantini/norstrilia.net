@@ -62,7 +62,8 @@
         <legend>Scegli la mappa base:</legend>
 
         <p>
-          <label><input type="radio" name="basemap" value="otm" checked="checked"/> OpenTopoMap</label>
+          <label><input type="radio" name="basemap" value="fum" checked="checked" /> 4UMaps</label>
+          <label><input type="radio" name="basemap" value="otm" /> OpenTopoMap</label>
           <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label>
           <label><input type="radio" name="basemap" value="mb" /> MapBox</label>
         </p>

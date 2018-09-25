@@ -33,6 +33,10 @@ function showSelectedBaseMap(map, basemap)
   clearLayers(map);
 
   switch (basemap) {
+    case 'fum':
+      // 4Umaps
+      map.addLayer(forYouMapsLayer());
+      break;
     case 'otm':
       // Open topo map
       map.addLayer(OpenTopoMapLayer());
@@ -61,23 +65,13 @@ function clearLayers(map)
 }
 
 //------------------------------------------------------------------------------------------------------
-function MapBoxLayer()
+function forYouMapsLayer()
 {
-
-  // save my MapBox key
-  var mpKey = 'pk.eyJ1Ijoicm9kbWNiYW4iLCJhIjoiY2ptNHQ2c3N1MGducTNxbzRydGUwZzdtMSJ9.jILIRcBlfcJTPZztynaKwQ';
-  var mpUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mpKey;
-
-  var mpAttrib = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-          'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
-
-  return tlay = new L.tileLayer(mpUrl,
-    {
-       attribution: mpAttrib,
-       id: 'mapbox.streets',
-    }
-  );
+  return L.tileLayer('https://tileserver.4umaps.com/{z}/{x}/{y}.png',
+  {
+    maxZoom: 17,
+    attribution: 'Map data: &copy; <a href="https://www.4umaps.com/">4UMaps</a>'
+  });
 }
 
 //------------------------------------------------------------------------------------------------------
@@ -98,6 +92,26 @@ function ThunderForestLandscapeLayer()
     apikey: 'e9fb11ac45734d7f9475e22de47d93e7',
     maxZoom: 22
   });
+}
+
+//------------------------------------------------------------------------------------------------------
+function MapBoxLayer()
+{
+
+  // save my MapBox key
+  var mpKey = 'pk.eyJ1Ijoicm9kbWNiYW4iLCJhIjoiY2ptNHQ2c3N1MGducTNxbzRydGUwZzdtMSJ9.jILIRcBlfcJTPZztynaKwQ';
+  var mpUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mpKey;
+
+  var mpAttrib = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+          'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
+
+  return tlay = new L.tileLayer(mpUrl,
+    {
+       attribution: mpAttrib,
+       id: 'mapbox.streets',
+    }
+  );
 }
 
 //------------------------------------------------------------------------------------------------------
