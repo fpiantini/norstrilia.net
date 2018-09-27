@@ -18,13 +18,22 @@ function initmap()
     }, false);
   }
 
-  showSelectedBaseMap(mymap, getRadioVal(mapform, 'basemap'));
+  showLayers(mymap, getRadioVal(mapform, 'basemap'),
+    'tracks/Valnontey_CapanniHerbetet_RifSella.gpx');
 }
 
 // -----------------------------------------------------------------------------------------------------
 function switchBaseMap(map, mapform)
 {
-  showSelectedBaseMap(map, getRadioVal(mapform, 'basemap'));
+  showLayers(map, getRadioVal(mapform, 'basemap'),
+    'tracks/Valnontey_CapanniHerbetet_RifSella.gpx');
+}
+
+// -----------------------------------------------------------------------------------------------------
+function showLayers(map, basemap, track)
+{
+  showSelectedBaseMap(map, basemap);
+  showTrack(map, track);
 }
 
 // -----------------------------------------------------------------------------------------------------
@@ -54,6 +63,28 @@ function showSelectedBaseMap(map, basemap)
       map.addLayer(MapBoxLayer());
       break;
   }
+}
+
+// -----------------------------------------------------------------------------------------------------
+function showTrack(map, track)
+{
+  var gpx = track;
+  new L.GPX(gpx, {
+    async: true,
+    marker_options: {
+      startIconUrl: 'imgs/pin-icon-start.png',
+      endIconUrl: 'imgs/pin-icon-end.png',
+      shadowUrl: 'imgs/pin-shadow.png'
+    },
+    polyline_options: {
+      color: 'purple',
+      opacity: 0.75,
+      weight: 3,
+      lineCap: 'round'
+    }
+  }).on('loaded', function(e) {
+    map.fitBounds(e.target.getBounds());
+  }).addTo(map);
 }
 
 //------------------------------------------------------------------------------------------------------
