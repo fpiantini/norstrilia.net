@@ -1,5 +1,12 @@
 var map;
 
+// Available tracks:
+var selectedMap = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
+// var selectedMap = "tracks/20180821_RifSella_ColLauson_Valsavarenche.gpx";
+// var selectedMap = "tracks/20180822_Pont_RifSavoia.gpx";
+// var selectedMap = "tracks/20180823_RifSavoia_Laghi_ColLeynir.gpx";
+// var selectedMap = "tracks/20180824_RifSavoia_ColleDellaTerra_RifMila.gpx";
+
 //------------------------------------------------------------------------------------------------------
 function initmap()
 {
@@ -19,14 +26,14 @@ function initmap()
   }
 
   showLayers(mymap, getRadioVal(mapform, 'basemap'),
-    'tracks/Valnontey_CapanniHerbetet_RifSella.gpx');
+    selectedMap);
 }
 
 // -----------------------------------------------------------------------------------------------------
 function switchBaseMap(map, mapform)
 {
   showLayers(map, getRadioVal(mapform, 'basemap'),
-    'tracks/Valnontey_CapanniHerbetet_RifSella.gpx');
+    selectedMap);
 }
 
 // -----------------------------------------------------------------------------------------------------
