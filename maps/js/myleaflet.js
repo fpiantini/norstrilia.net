@@ -1,42 +1,61 @@
 var map;
 
 // Available tracks:
-// var selectedMap = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
-// var selectedMap = "tracks/20180821_RifSella_ColLauson_Valsavarenche.gpx";
-// var selectedMap = "tracks/20180822_Pont_RifSavoia.gpx";
-// var selectedMap = "tracks/20180823_RifSavoia_Laghi_ColLeynir.gpx";
-// var selectedMap = "tracks/20180824_RifSavoia_ColleDellaTerra_RifMila.gpx";
-
 var treks =
 [
   {
     "title": "Da Valnontey al Rifugio Sella passando per i capanni dell'Herbetet",
     "trackfile": "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx",
-    "abbreviation": "V_CH_FS"
   },
   {
     "title": "Dal Rifugio Sella alla Valsavarenche (Col Lauson).gpx",
     "trackfile": "tracks/20180821_RifSella_ColLauson_Valsavarenche.gpx",
-    "abbreviation": "RS_CL_V"
   },
   {
     "title": "Da Pont al Rifugio Savoia",
     "trackfile": "tracks/20180822_Pont_RifSavoia.gpx",
-    "abbreviation": "P_RS"
   },
   {
     "title": "Giro sopra il Rifugio Savoia: laghi e Col Leynir",
     "trackfile": "tracks/20180823_RifSavoia_Laghi_ColLeynir.gpx",
-    "abbreviation": "RS_CL"
   },
   {
     "title": "Dal Rifugio Savoia a Ceresole Reale passando per il Colle della Terra",
     "trackfile": "tracks/20180824_RifSavoia_ColleDellaTerra_RifMila.gpx",
-    "abbreviation": "RS_CDT_CR"
+  },
+  {
+    "title": "Islanda - Passeggiata nel Landmannalaugar con salita al Blahnukur",
+    "trackfile": "tracks/20180701_Landmannalaugar_Blahnukur.gpx",
+  },
+  {
+    "title": "Islanda - Breve passeggiata nel Thorsmork",
+    "trackfile": "tracks/20180702_Thorsmork.gpx",
+  },
+  {
+    "title": "Islanda - Passeggiata sopra Skogafoss",
+    "trackfile": "tracks/20180703_Skogafoss.gpx",
+  },
+  {
+    "title": "Islanda - Il relitto aereo presso la spiaggia di Vik",
+    "trackfile": "tracks/20180703_VikRelittoAereo.gpx",
+  },
+  {
+    "title": "Islanda - Skaftafell, anello St. Kristine",
+    "trackfile": "tracks/20180705_SkaftafellAnelloStKristine.gpx",
+  },
+  {
+    "title": "Islanda - Le cascate di Hengifoss",
+    "trackfile": "tracks/20180707_CascataHengifoss.gpx",
+  },
+  {
+    "title": "Islanda - Asbyrgi",
+    "trackfile": "tracks/20180709_Asbyrgi.gpx",
+  },
+  {
+    "title": "Islanda - Vesturdalur e salita al Raudholar",
+    "trackfile": "tracks/20180709_Vesturdalur_Raudholar.gpx",
   },
 ]
-
-var selectedMap = treks[3]["trackfile"];
 
 //------------------------------------------------------------------------------------------------------
 function initmap()
@@ -211,15 +230,10 @@ function prepareTrackDropdown(ddown, treks)
 {
   ddown.length = 0;
 
-  //let defaultOption = document.createElement('option');
-  //defaultOption.text = 'Scegli la traccia da visualizzare';
-  //ddown.add(defaultOption);
-
   let option;
   for (let ndx = 0; ndx < treks.length; ndx++) {
     option = document.createElement('option');
     option.text = treks[ndx]['title'];
-    option.value = treks[ndx]['abbreviation'];
     ddown.add(option);
   }
 
