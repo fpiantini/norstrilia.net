@@ -64,8 +64,6 @@ function initmap()
 
 
   redrawMap(mymap, mapform, ddown, treks);
-  //showLayers(mymap, getRadioVal(mapform, 'basemap'),
-  //  treks[ddown.selectedIndex]["trackfile"]);
 }
 
 // -----------------------------------------------------------------------------------------------------
