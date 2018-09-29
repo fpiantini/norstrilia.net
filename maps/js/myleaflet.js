@@ -1,11 +1,42 @@
 var map;
 
 // Available tracks:
-var selectedMap = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
+// var selectedMap = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
 // var selectedMap = "tracks/20180821_RifSella_ColLauson_Valsavarenche.gpx";
 // var selectedMap = "tracks/20180822_Pont_RifSavoia.gpx";
 // var selectedMap = "tracks/20180823_RifSavoia_Laghi_ColLeynir.gpx";
 // var selectedMap = "tracks/20180824_RifSavoia_ColleDellaTerra_RifMila.gpx";
+
+var treks =
+[
+  {
+    "title": "Da Valnontey al Rifugio Sella passando per i capanni dell'Herbetet",
+    "trackfile": "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx",
+    "abbreviation": "V_CH_FS"
+  },
+  {
+    "title": "Dal Rifugio Sella alla Valsavarenche (Col Lauson).gpx",
+    "trackfile": "tracks/20180821_RifSella_ColLauson_Valsavarenche.gpx",
+    "abbreviation": "RS_CL_V"
+  },
+  {
+    "title": "Da Pont al Rifugio Savoia",
+    "trackfile": "tracks/20180822_Pont_RifSavoia.gpx",
+    "abbreviation": "P_RS"
+  },
+  {
+    "title": "Giro sopra il Rifugio Savoia: laghi e Col Leynir",
+    "trackfile": "tracks/20180823_RifSavoia_Laghi_ColLeynir.gpx",
+    "abbreviation": "RS_CL"
+  },
+  {
+    "title": "Dal Rifugio Savoia a Ceresole Reale passando per il Colle della Terra",
+    "trackfile": "tracks/20180824_RifSavoia_ColleDellaTerra_RifMila.gpx",
+    "abbreviation": "RS_CDT_CR"
+  },
+]
+
+var selectedMap = treks[3]["trackfile"];
 
 //------------------------------------------------------------------------------------------------------
 function initmap()
@@ -14,6 +45,7 @@ function initmap()
   mymap.setView([45.6074676, 7.3490831], 13);
 
   var mapform = document.getElementById('baseMapForm');
+  var ddown = document.getElementById('track-chooser-dropdown');
 
   // assign onclick function to radio button used
   // to select basemap
@@ -21,19 +53,26 @@ function initmap()
 
   for (var i = 0, len = basemapRadios.length; i < len; i++) {
     basemapRadios[i].addEventListener("click", function() {
-      switchBaseMap(mymap, mapform)
+      redrawMap(mymap, mapform, ddown, treks)
     }, false);
   }
 
-  showLayers(mymap, getRadioVal(mapform, 'basemap'),
-    selectedMap);
+  prepareTrackDropdown(ddown, treks)
+  ddown.addEventListener("change", function() {
+    redrawMap(mymap, mapform, ddown, treks)
+  }, false);
+
+
+  redrawMap(mymap, mapform, ddown, treks);
+  //showLayers(mymap, getRadioVal(mapform, 'basemap'),
+  //  treks[ddown.selectedIndex]["trackfile"]);
 }
 
 // -----------------------------------------------------------------------------------------------------
-function switchBaseMap(map, mapform)
+function redrawMap(map, mapform, ddown, treks)
 {
   showLayers(map, getRadioVal(mapform, 'basemap'),
-    selectedMap);
+    treks[ddown.selectedIndex]["trackfile"]);
 }
 
 // -----------------------------------------------------------------------------------------------------
@@ -167,5 +206,26 @@ function getRadioVal(form, name)
   return val;
 }
 
+
+// -----------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------
+function prepareTrackDropdown(ddown, treks)
+{
+  ddown.length = 0;
+
+  //let defaultOption = document.createElement('option');
+  //defaultOption.text = 'Scegli la traccia da visualizzare';
+  //ddown.add(defaultOption);
+
+  let option;
+  for (let ndx = 0; ndx < treks.length; ndx++) {
+    option = document.createElement('option');
+    option.text = treks[ndx]['title'];
+    option.value = treks[ndx]['abbreviation'];
+    ddown.add(option);
+  }
+
+  ddown.selectedIndex = 0;
+}
 
 

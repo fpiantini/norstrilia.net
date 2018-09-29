@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+<meta charset="utf-8"/>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 
 
@@ -73,6 +73,9 @@
 
    </div>
 
+   <select id="track-chooser-dropdown" name="track-chooser">
+   </select>
+
    <div id="mapid"></div>
 
    <script>
@@ -99,6 +102,12 @@
      <li>
        <a href="https://github.com/mpetazzoni/leaflet-gpx">
          Leaflet-gpx</a>: A GPX track plugin for Leaflet.js
+       </a>
+     </li>
+
+     <li>
+       <a href="https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json">
+         Populate a select dropdown list with JSON</a>: dove ho imparato a popolare una lista drop down con dati JSON
        </a>
      </li>
    </ul>
