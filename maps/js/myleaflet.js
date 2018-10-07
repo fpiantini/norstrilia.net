@@ -57,6 +57,10 @@ var treks =
       {
         "title": "Islanda - Vesturdalur e salita al Raudholar",
         "trackfile": "tracks/20180709_Vesturdalur_Raudholar.gpx"
+      },
+      {
+        "title": "Sesto Fiorentino - Sgambata alle pendici di Monte Morello",
+        "trackfile": "tracks/20181007_SgambataMonteMorelloVicinoCasa.gpx"
       }
     ];
 
