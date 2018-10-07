@@ -205,10 +205,21 @@ function showTrack(map, track) {
 }
 
 // -----------------------------------------------------------------------------------------------
+function writeCurrentTrackInformation() {
+  'use strict';
+  var gpx, gpxinfo;
+  gpx = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
+  gpxinfo = new L.GPX(gpx);
+  document.write(gpxinfo.get_name());
+  console.log('sticazzi ' + gpxinfo.get_name());
+}
+
+
+// -----------------------------------------------------------------------------------------------
 function showLayers(map, basemap, track) {
   'use strict';
   showSelectedBaseMap(map, basemap);
-  showTrack(map, track);
+  //showTrack(map, track);
 }
 
 // -----------------------------------------------------------------------------------------------
