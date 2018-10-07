@@ -219,7 +219,7 @@ function writeCurrentTrackInformation() {
 function showLayers(map, basemap, track) {
   'use strict';
   showSelectedBaseMap(map, basemap);
-  //showTrack(map, track);
+  showTrack(map, track);
 }
 
 // -----------------------------------------------------------------------------------------------
