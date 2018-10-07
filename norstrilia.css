@@ -5,16 +5,198 @@
  *                                                            *
  * * * * * * * * * * * * * *~~* * * * * * * * * * * * * * * * *
  * ********************************************************** */
-body {
-  background-color: #DEDEBD; /* #EEEEBB; */
-  background-position: center center;
-  font-family: trebuchet MS, helvetica, arial, sans-serif;
-  color: black;
+
+/*
+ * Solarized theme colors:
+ * $base03:    #002b36;
+ * $base02:    #073642;
+ * $base01:    #586e75;
+ * $base00:    #657b83;
+ * $base0:     #839496;
+ * $base1:     #93a1a1;
+ * $base2:     #eee8d5;
+ * $base3:     #fdf6e3;
+ * $yellow:    #b58900;
+ * $orange:    #cb4b16;
+ * $red:       #dc322f;
+ * $magenta:   #d33682;
+ * $violet:    #6c71c4;
+ * $blue:      #268bd2;
+ * $cyan:      #2aa198;
+ * $green:     #859900;
+ */
+
+:root {
+  --solar-base03-color:    #002b36;   # dark: blue navy main color
+  --solar-base02-color:    #073642;
+  --solar-base01-color:    #586e75;
+  --solar-base00-color:    #657b83;
+  --solar-base0-color:     #839496;
+  --solar-base1-color:     #93a1a1;
+  --solar-base2-color:     #eee8d5;
+  --solar-base3-color:     #fdf6e3;
+  --solar-yellow-color:    #b58900;
+  --solar-orange-color:    #cb4b16;
+  --solar-red-color:       #dc322f;
+  --solar-magenta-color:   #d33682;
+  --solar-violet-color:    #6c71c4;
+  --solar-blue-color:      #268bd2;
+  --solar-cyan-color:      #2aa198;
+  --solar-green-color:     #859900;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(imgs/back.jpg); */
+    color: var(--solar-base3-color);
+    background-color: var(--solar-base03-color);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * ~~~Text styles~~~                                         *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.header {
+  color: var(--solar-orange-color);
+  background-color: var(--solar-base2-color);
+  font-size: x-large;
+  /* color: white; */
+  /* background-color: #3E6035; */
+  border-radius: 10px;
+  margin: 20px;
+  padding-top: 0.2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
+  text-align: center;
+}
+
+.footer {
+  color: var(--solar-orange-color);
+  background-color: var(--solar-base2-color);
+  font-size: x-large;
+  border-radius: 10px;
+  margin: 20px;
+  padding-top: 0.2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
+  text-align: center;
+}
+
+
+.div1 {
+  color: var(--solar-base3-color);
+  background-color: var(--solar-base01-color);
+  text-align: center;
+  /* text-transform: uppercase; */
+  margin: 20px;
+  border-radius: 10px;
+  padding-top: 0.2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
+}
+
+.div2 {
+  color: var(--solar-blue-color);
+  background-color: var(--solar-base3-color);
+  text-align: center;
+  /* text-transform: uppercase; */
+  margin: 20px;
+  border-radius: 10px;
+  padding-top: 0.2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
+}
+
+.div3 {
+  color: var(--solar-base3-color);
+  background-color: var(--solar-base01-color);
+  text-align: center;
+  /* text-transform: uppercase; */
+  margin: 20px;
+  border-radius: 10px;
+  padding-top: 0.2cm;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.2cm;
+}
+
+.inevidence {
+  font-size: x-large;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.normal {
+  font-size: x-large;
+  font-weight: normal;
+  /* font-variant: small-caps; */
+
+}
+
+#main-activities p {
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+}
+
+#archive p {
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+}
+
+#main-activities a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: var(--solar-blue-color);
+}
+
+#archive a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  /* font-variant: small-caps; */
+  color: var(--solar-base03-color);
+}
+
+/* unvisited link */
+a:link {
+}
+
+/* visited link */
+a:visited {
+}
+
+/* mouse over link */
+a:hover {
+  /* text-transform: uppercase; */
+  /*font-weight: 2000;
+  letter-spacing: 1px;*/
+  margin-right: 20px;
+}
+
+/* selected link */
+a:active {
+}
+/*
 p {
   font-size: small;
   padding-left: 0.5cm;
@@ -24,15 +206,9 @@ p {
   margin-bottom: 0.4cm;
   margin-top: 0cm;
 }
+*/
 
 h1 {
-  font-size: x-large;
-  /* color: white; */
-  /* background-color: #3E6035; */
-  padding-top: 0.2cm;
-  padding-left: 0.5cm;
-  padding-right: 0.5cm;
-  padding-bottom: 0.2cm;
 }
 
 h2 {
@@ -84,6 +260,7 @@ under {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * ~~~Tables styles~~~                                       *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/*
 table {
    margin-top: 0.3cm;
    margin-bottom: 0.3cm;
@@ -117,7 +294,7 @@ td {
    border-style: solid;
    border-width: thin;
 }
-
+*/
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * ~~~div/span~~~                                            *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -130,11 +307,6 @@ span {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * ~~~IDs used for "div"~~~                                  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-div#header {
-  color: white;
-  background-color: #3E6035;
-}
-
 div#leftmenu {
   position: absolute;
   width: 165px;
@@ -213,19 +385,6 @@ div#bodywithmenu {
 
 div#bodywithlargemenu {
   margin-left: 220px;
-}
-
-div#body {
-}
-
-div#footer {
-  background-color: #A5B892;
-  border-top-style: solid;
-  border-color: black;
-  /* border-width: 10px; */
-  /* color: white; */
-  /* background-color: #3E6035; */
-  /* text-align: right; */
 }
 
 div.code {

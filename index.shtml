@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 
-<head>
+  <head>
 
    <title>
    Norstrilia.Net - Home Page
@@ -25,65 +25,74 @@
    <meta name="keywords" content="Norstrilia" />
    <!-- End of Meta informations -->
 
-</head>
+   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+   <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+ </head>
 
 
-<body>
-    <div id="header">
+ <body>
+    <div class="header" id="header">
       <h1>Norstrilia.net Home Page</h1>
     </div>
 
 
     <!-- ************************************************************ -->
-    <!-- <div id="bodywithmenu"> -->
-    <div id="body">
+    <div class="div1" id="under-construction">
+      <img src="imgs/underconstruction.jpg" alt="Under construction" />
+      <p class="inevidence">I giochi web dei cittadini di Norstrilia</p>
+      <p class="normal">In quanto gioco, questo sito &egrave; da intendersi
+        un continuo work in progress</p>
+    </div>
 
+    <div class="div2" id="main-activities">
       <p>
-         <img src="underconstruction.jpg" alt="Under construction" />
-      </p>
-
-      <h2>In progress...</h2>
-      <ul>
-        <li>
-          <a href="./maps/maps.shtml">Esperimenti con mappe (leaflet)</a>
-        </li>
-        <li>
-          <a href="http://coderdojo.norstrilia.net/">2014 - Coderdojo experiments.</a>
-          Prove e tutorial realizzati per Coderdojo Firenze nel periodo 2014...?
-        </li>
-      </ul>
-
-      <h2>Altre sezioni</h2>
-      <p>
-         <a href="http://citizens.norstrilia.net/">Citizens</a> blog
+      <a href="./maps/maps.shtml">Esperimenti con mappe (leaflet)
+      </a>
       </p>
       <p>
-         <a href="http://abba-dingo.norstrilia.net/">Abba-dingo</a> wiki
+      <a href="http://coderdojo.norstrilia.net/">
+        Prove e tutorial realizzati per Coderdojo Firenze
+      </a>
+      </p>
+    </div>
+
+    <div class="div3" id="archive">
+      <p>
+         <a href="http://citizens.norstrilia.net/">Citizens blog</a>
       </p>
       <p>
-         <a href="http://alpharalpha.norstrilia.net/">Alpha-Ralpha</a> photo gallery
+         <a href="http://abba-dingo.norstrilia.net/">Abba-dingo wiki</a> 
       </p>
       <p>
-         <a href="http://space2.norstrilia.net/">Space2</a> subversion repositories
+         <a href="http://alpharalpha.norstrilia.net/">Alpha-Ralpha photo gallery</a>
       </p>
-      <ul>
-       <li><a href="http://space2.norstrilia.net/rod_projects/">Rod's Projects</a></li>
-       <li><a href="http://space2.norstrilia.net/rod_docs/">Rod's Docs</a></li>
-      </ul>
+      <p>
+         <a href="http://space2.norstrilia.net/">Space2 subversion repositories</a>
+      </p>
+      <p>
+        <a href="http://space2.norstrilia.net/rod_projects/">Rod's Projects</a>
+      </p>
+      <p>
+        <a href="http://space2.norstrilia.net/rod_docs/">Rod's Docs</a>
+      </p>
+      <p>
+        <a href="./maps/googlemaps.shtml">Esperimenti Google Maps</a>
+      </p>
+      <p>
+        <a href="scacchi/index.shtml">Esperimenti visualizzazione partite di Scacchi</a>
+      </p>
+      <p>
+        <a href="js/index.shtml">The (old...) Javascript session</a>
+      </p>
+    </div>
 
-      <h2>Archivio</h2>
-      <p>Vecchie pagine non pi&ugrave; mantenute.</p>
-      <ul>
-        <li><a href="./maps/googlemaps.shtml">Esperimenti Google Maps</a></li>
-        <li><a href="scacchi/index.shtml">Esperimenti visualizzazione partite di Scacchi/Chess</a></li>
-        <li><a href="js/index.shtml">The (old...) Javascript session</a></li>
-      </ul>
 
-   </div>
+    <div class="footer" id="footer">
+      <p>by Rod McBan (rodmcban at norstrilia dot net)</p>
+    </div>
 
-   <!--#include virtual="incs/footer.html" -->
-
-</body>
+  </body>
 
 </html>
 

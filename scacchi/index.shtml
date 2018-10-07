@@ -29,48 +29,32 @@
 
 
 <body>
-    <div id="header">
+    <div class="header" id="header">
       <h1>Norstrilia.net - Scacchi</h1>
     </div>
 
+    <div class="div1" id="scacchi">
+      <img src="../imgs/scacchidilewis.jpg" alt="Scacchi di Lewis" />
+    </div>
 
     <!-- ************************************************************ -->
     <div id="body">
 
-    <h1>
-        Partite
-	</h1>
-<!--
-    <h2>
-        Torneo sociale A.D. Firenze Scacchi fine 2009
-	</h2>
-	<p>Partite giocate da Francesco Piantini nel torneo sociale di fine 2009 tenuto presso
-	la societ&agrave; <a href="http://www.firenzescacchi.it/">A.D. Firenze Scacchi</a>.</p>
+    <div class="div2" id="main-activities">
+      <p>
+        <a href="partite/cis2009/cis2009.shtml">Partite CIS Promozione 2009</a>
+      </p>
+      <p class="normal">
+        Giocate da Francesco Piantini nel torneo toscano di promozione CIS
+        2009 con la squadra "Belle Speranze" della societ&agrave; A.D.
+        Firenze Scacchi
+      </p>
+    </div>
 
-	<p>TO BE COMPLETED</p>
--->
-    <h2>
-        CIS Promozione 2009
-	</h2>
-	<p><a href="partite/cis2009/cis2009.shtml">Partite</a> giocate da Francesco Piantini nel campionato regionale 
-	toscano di promozione CIS 2009 della Federazione Scacchistica Italiana con la 
-	squadra "Belle Speranze" della societ&agrave;
-	<a href="http://www.firenzescacchi.it/">A.D. Firenze Scacchi</a>.</p>
-<!--
-    <h2>
-        Chess.com (Settembre 2007 - Aprile 2009)
-	</h2>
-	<p>Partite giocate da <a href="http://www.chess.com/members/view/fpiantini"> 
-	Francesco Piantini</a> su <a href="http://www.chess.com/">Chess.com</a> nel periodo
-	Settembre 2007 - Aprile 2009</p>
+    <div class="footer" id="footer">
+      <p>by Rod McBan (rodmcban at norstrilia dot net)</p>
+    </div>
 
-	<p>TO BE COMPLETED</p>
--->
-	</div>
-
-	<!-- ************************************************************ -->
-   <!--#include virtual="/incs/footer.html" -->
-    
 </body>
 
 </html>
