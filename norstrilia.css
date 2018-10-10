@@ -54,7 +54,6 @@
 }
 
 body {
-    /* background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(imgs/back.jpg); */
     color: var(--solar-base3-color);
     background-color: var(--solar-base03-color);
     background-size: cover;
@@ -99,7 +98,7 @@ body {
 }
 
 
-.div1 {
+.divdark {
   color: var(--solar-base3-color);
   background-color: var(--solar-base01-color);
   text-align: center;
@@ -112,7 +111,7 @@ body {
   padding-bottom: 0.2cm;
 }
 
-.div2 {
+.divlight {
   color: var(--solar-blue-color);
   background-color: var(--solar-base3-color);
   text-align: center;
@@ -125,19 +124,17 @@ body {
   padding-bottom: 0.2cm;
 }
 
-.div3 {
-  color: var(--solar-base3-color);
-  background-color: var(--solar-base01-color);
-  text-align: center;
-  /* text-transform: uppercase; */
-  margin: 20px;
-  border-radius: 10px;
-  padding-top: 0.2cm;
-  padding-left: 0.5cm;
-  padding-right: 0.5cm;
-  padding-bottom: 0.2cm;
+.divmap {
+  height: 100px;
+  font-size: x-small;
+  
 }
 
+#mapid {
+  height: 100px;
+  font-size: x-small;
+  
+}
 .inevidence {
   font-size: x-large;
   font-weight: bold;
@@ -161,20 +158,41 @@ body {
   padding-bottom: 0.2cm;
 }
 
-#main-activities a {
+
+
+a {
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
+}
+
+.divlight a {
   font-variant: small-caps;
   color: var(--solar-blue-color);
 }
 
-#archive a {
-  text-decoration: none;
-  font-size: x-large;
-  font-weight: bold;
+.divdark a {
   /* font-variant: small-caps; */
   color: var(--solar-base03-color);
+}
+
+.divmap a {
+  font-size: x-small;
+  color: black;
+  
+}
+
+.mapLayerChooser {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  /* the following are necessary to have the legend centered
+  https://stackoverflow.com/questions/23377769/fieldset-center-legend
+  */
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 /* unvisited link */
@@ -190,12 +208,23 @@ a:hover {
   /* text-transform: uppercase; */
   /*font-weight: 2000;
   letter-spacing: 1px;*/
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 /* selected link */
 a:active {
 }
+
+.divmap a:hover {
+  margin-right: 0;
+  
+}
+
+
+
+
+
+
 /*
 p {
   font-size: small;

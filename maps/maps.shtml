@@ -37,8 +37,8 @@
 
   <body>
 
-    <div id="header">
-      <h1>Norstrilia.net Maps Experiments Page</h1>
+    <div class="header" id="header">
+      <h1>Norstrilia.net - Esperimenti con mappe</h1>
     </div>
 
 
@@ -46,72 +46,77 @@
     <!-- <div id="bodywithmenu"> -->
     <div id="body">
 
-      <h2>
-        Esperimenti con mappe generate con
-        <a href="https://leafletjs.com/">Leaflet</a>
-      </h2>
+      <div class="divdark" id="mapbox">
+      
+        <!-- *** LA MAPPA: *** -->
+        <div class="divmap" id="mapid" style="height: 610px; width:100%"></div>
+        <!-- *** LA MAPPA: *** -->
 
-      <form action="#" method="post" class="demoForm" id="baseMapForm">
-        <fieldset>
-          <legend>Tipo di mappa base:</legend>
+      </div>
 
-          <p>
-            <label><input type="radio" name="basemap" value="fum" checked="checked" /> 4UMaps</label>
-            <label><input type="radio" name="basemap" value="otm" /> OpenTopoMap</label>
-            <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label>
-            <label><input type="radio" name="basemap" value="mb" /> MapBox</label>
-          </p>
-        </fieldset>
-      </form>
+      <div class="divlight" id="mapbox">
+        <form action="#" method="post" class="mapLayerChooser" id="mapLayerChooserForm">
+          <fieldset class="mapLayerChooser">
+            <legend class="mapLayerChooser">Tipo di mappa base</legend>
 
+            <p>
+              <label><input type="radio" name="basemap" value="fum" checked="checked" /> 4UMaps</label>
+              <label><input type="radio" name="basemap" value="otm" /> OpenTopoMap</label>
+              <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label>
+              <label><input type="radio" name="basemap" value="mb" /> MapBox</label>
+            </p>
+          </fieldset>
+        </form>
+
+        <p class="normal">Scegli il percorso da visualizzare</p>
+          <form action="#" method="post" class="trackChooser" id="trackChooserForm">
+          <select id="track-chooser-dropdown" name="track-chooser"></select>
+        </form>
+
+      </div>
+      
+      <div class="divdark" id="trackInfo">
+      <p class="inevidence">
+        Informazioni sul percorso
+        </p>
+        <p class="normal">WORK IN PROGRESS</p>
+      </div>
+      
+      <div class="divlight" id="mapbox">
+        <p class="inevidence">
+          Ringraziamenti
+        </p>
+
+        <p class="normal">
+          <a href="https://leafletjs.com/">Leaflet</a>:
+            an open-source JavaScript library
+            for mobile-friendly interactive maps    
+        </p>
+        <p class="normal">
+          <a href="https://github.com/leaflet-extras/leaflet-providers">
+            Leaflet providers</a>: Leaflet extension with
+            configurations for free tile providers.
+        </p>
+        <p class="normal">
+          <a href="https://github.com/mpetazzoni/leaflet-gpx">
+            Leaflet-gpx</a>: A GPX track plugin for Leaflet.js
+          </a>
+        </p>
+        <p class="normal">
+          <a href="https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json">
+            JSON data on dropdown list</a>: how to populate a
+            dropdown list with JSON data
+        </p>
+      </div>
     </div>
-
-    <select id="track-chooser-dropdown" name="track-chooser">
-    </select>
-
-    <div id="mapid"></div>
-
+      
     <script>
-      initmap();
+      domap();
     </script>
 
-    <h2>
-      Informazioni sul percorso
-    </h2>
-    <p>WORK IN PROGRESS</p>
-
-    <h2>
-      Ringraziamenti
-    </h2>
-
-    <ul>
-      <li>
-        <a href="https://leafletjs.com/">Leaflet</a>:
-          an open-source JavaScript library
-          for mobile-friendly interactive maps
-      </li>
-      <li>
-        <a href="https://github.com/leaflet-extras/leaflet-providers">
-          Leaflet providers</a>: An extension to Leaflet that contains
-          configurations for various free tile providers.
-        </a>
-      </li>
-
-      <li>
-        <a href="https://github.com/mpetazzoni/leaflet-gpx">
-          Leaflet-gpx</a>: A GPX track plugin for Leaflet.js
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.codebyamir.com/blog/populate-a-select-dropdown-list-with-json">
-          Populate a select dropdown list with JSON</a>: dove ho imparato
-          a popolare una lista drop down con dati JSON
-        </a>
-      </li>
-    </ul>
-
-    <!--#include virtual="../incs/footer.html" -->
+    <div class="footer" id="footer">
+      <p>by Rod McBan (rodmcban at norstrilia dot net)</p>
+    </div>
 
   </body>
 </html>

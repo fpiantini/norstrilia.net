@@ -234,11 +234,13 @@ function redrawMap(map, mapform, ddown, treks) {
 }
 
 //------------------------------------------------------------------------------------------------
-function initmap() {
+function domap() {
   'use strict';
   var mymap, mapform, ddown, basemapRadios, i, len;
   mymap = new L.map('mapid');
-  mapform = document.getElementById('baseMapForm');
+  mymap.scrollWheelZoom.disable()
+
+  mapform = document.getElementById('mapLayerChooserForm');
   ddown = document.getElementById('track-chooser-dropdown');
 
   // assign onclick function to radio button used

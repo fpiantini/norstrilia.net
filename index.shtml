@@ -38,14 +38,14 @@
 
 
     <!-- ************************************************************ -->
-    <div class="div1" id="under-construction">
+    <div class="divdark" id="under-construction">
       <img src="imgs/underconstruction.jpg" alt="Under construction" />
       <p class="inevidence">I giochi web dei cittadini di Norstrilia</p>
       <p class="normal">In quanto gioco, questo sito &egrave; da intendersi
         un continuo work in progress</p>
     </div>
 
-    <div class="div2" id="main-activities">
+    <div class="divlight" id="main-activities">
       <p>
       <a href="./maps/maps.shtml">Esperimenti con mappe (leaflet)
       </a>
@@ -57,7 +57,7 @@
       </p>
     </div>
 
-    <div class="div3" id="archive">
+    <div class="divdark" id="archive">
       <p>
          <a href="http://citizens.norstrilia.net/">Citizens blog</a>
       </p>
