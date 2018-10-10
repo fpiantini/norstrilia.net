@@ -76,9 +76,11 @@
       <p>
         <a href="http://space2.norstrilia.net/rod_docs/">Rod's Docs</a>
       </p>
+      <!--
       <p>
         <a href="./maps/googlemaps.shtml">Esperimenti Google Maps</a>
       </p>
+      -->
       <p>
         <a href="scacchi/index.shtml">Esperimenti visualizzazione partite di Scacchi</a>
       </p>
