@@ -214,9 +214,21 @@ function showTrack(map, track) {
   }).on('loaded', function (e) {
     var gpx = e.target;
     map.fitBounds(gpx.getBounds());
-    var md_trackname = gpx.get_name();
-    document.getElementById('md_trackname').textContent =
-      'Nome della traccia: \"' + md_trackname + '\"';
+
+    document.getElementById('md_trackname').textContent = 'Nome della traccia: ' + gpx.get_name();
+    document.getElementById('md_totdistance').textContent = 'Distanza totale: ' + gpx.get_distance() + ' m';
+    document.getElementById('md_starttime').textContent = 'Orario di inizio: ' + gpx.get_start_time();
+    document.getElementById('md_endtime').textContent = 'Orario di fine: ' + gpx.get_end_time();
+    document.getElementById('md_movingtime').textContent = 'Tempo in movimento: ' + gpx.get_moving_time() + " ms";
+    document.getElementById('md_totaltime').textContent = 'Tempo totale: ' + gpx.get_total_time() + " ms";
+    document.getElementById('md_movingpace').textContent = 'Ritmo medio in movimento: ' + gpx.get_moving_pace() + " ms";
+    document.getElementById('md_movingspeed').textContent = 'Velocità media in movimento: ' + gpx.get_moving_speed() + ' Km/h';
+    document.getElementById('md_totalspeed').textContent = 'Velocità media: ' + gpx.get_total_speed() + ' Km/h';
+    document.getElementById('md_elevmin').textContent = 'Elevazione minima: ' + gpx.get_elevation_min() + ' m s.l.m.';
+    document.getElementById('md_elevmax').textContent = 'Elevazione massima: ' + gpx.get_elevation_max() + ' m s.l.m.';
+    document.getElementById('md_elevgain').textContent = 'Guadagno in elevazione: ' + gpx.get_elevation_gain() + ' m';
+    document.getElementById('md_elevloss').textContent = 'Perdita in elevazione: ' + gpx.get_elevation_loss() + ' m';
+    
   }).addTo(map);
 }
 
@@ -239,7 +251,7 @@ function domap() {
   'use strict';
   var mymap, mapform, ddown, basemapRadios, i, len;
   mymap = new L.map('mapid');
-  mymap.scrollWheelZoom.disable()
+  mymap.scrollWheelZoom.disable();
 
   mapform = document.getElementById('mapLayerChooserForm');
   ddown = document.getElementById('track-chooser-dropdown');
