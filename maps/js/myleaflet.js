@@ -7,6 +7,18 @@ var document;
 var treks =
     [
       {
+        "title": "Sesto Fiorentino - Monte Morello, sgambata sopra Colonnata",
+        "trackfile": "tracks/20181020_morello_basso_lato_colonnata.gpx"
+      },
+      {
+        "title": "Sesto Fiorentino - Monte Morello, Sgambata sopra le Cappelle",
+        "trackfile": "tracks/20181007_SgambataMonteMorelloVicinoCasa.gpx"
+      },
+      {
+        "title": "Abetone - Alpe Tre Potenze",
+        "trackfile": "tracks/20180909_LeRegine_LagoNero_AlpeTrePotenze_Abetone.gpx"
+      },
+      {
         "title": "Da Valnontey al Rifugio Sella passando per i capanni dell'Herbetet",
         "trackfile": "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx"
       },
@@ -57,10 +69,6 @@ var treks =
       {
         "title": "Islanda - Vesturdalur e salita al Raudholar",
         "trackfile": "tracks/20180709_Vesturdalur_Raudholar.gpx"
-      },
-      {
-        "title": "Sesto Fiorentino - Sgambata alle pendici di Monte Morello",
-        "trackfile": "tracks/20181007_SgambataMonteMorelloVicinoCasa.gpx"
       }
     ];
 
