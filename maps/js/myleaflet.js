@@ -64,7 +64,7 @@ var treks =
       }
     ];
 
-// ----------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 function getRadioVal(form, name) {
   'use strict';
   var radios, val, i, len;
@@ -80,8 +80,8 @@ function getRadioVal(form, name) {
   return val;
 }
 
-// ---------------------------------------------------------------------------------------------
-// ---------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function prepareTrackDropdown(ddown, treks) {
   'use strict';
   var option, ndx;
@@ -97,7 +97,7 @@ function prepareTrackDropdown(ddown, treks) {
   ddown.selectedIndex = 0;
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function clearLayers(map) {
   'use strict';
   map.eachLayer(function (layer) {
@@ -105,7 +105,7 @@ function clearLayers(map) {
   });
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function forYouMapsLayer() {
   'use strict';
   return L.tileLayer('https://tileserver.4umaps.com/{z}/{x}/{y}.png',
@@ -115,7 +115,7 @@ function forYouMapsLayer() {
     });
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function openTopoMapLayer() {
   'use strict';
   return L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
@@ -125,7 +125,7 @@ function openTopoMapLayer() {
     });
 }
 
-// ----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function thunderForestLandscapeLayer() {
   'use strict';
   return L.tileLayer('https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey={apikey}',  {
@@ -135,7 +135,7 @@ function thunderForestLandscapeLayer() {
   });
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function mapBoxLayer() {
   'use strict';
 
@@ -157,7 +157,7 @@ function mapBoxLayer() {
                         );
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function showSelectedBaseMap(map, basemap) {
   'use strict';
   clearLayers(map);
@@ -186,7 +186,7 @@ function showSelectedBaseMap(map, basemap) {
   }
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function showTrack(map, track) {
   'use strict';
   var gpx = track;
@@ -204,36 +204,27 @@ function showTrack(map, track) {
       lineCap: 'round'
     }
   }).on('loaded', function (e) {
-    map.fitBounds(e.target.getBounds());
+    var gpx = e.target;
+    map.fitBounds(gpx.getBounds());
+    console.log('GPX name = ' + gpx.get_name());
   }).addTo(map);
 }
 
-// -----------------------------------------------------------------------------------------------
-function writeCurrentTrackInformation() {
-  'use strict';
-  var gpx, gpxinfo;
-  gpx = "tracks/20180820_Valnontey_CapanniHerbetet_RifSella.gpx";
-  gpxinfo = new L.GPX(gpx);
-  document.write(gpxinfo.get_name());
-  console.log('sticazzi ' + gpxinfo.get_name());
-}
-
-
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function showLayers(map, basemap, track) {
   'use strict';
   showSelectedBaseMap(map, basemap);
   showTrack(map, track);
 }
 
-// -----------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 function redrawMap(map, mapform, ddown, treks) {
   'use strict';
   showLayers(map, getRadioVal(mapform, 'basemap'),
     treks[ddown.selectedIndex].trackfile);
 }
 
-//------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 function domap() {
   'use strict';
   var mymap, mapform, ddown, basemapRadios, i, len;
