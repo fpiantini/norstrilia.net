@@ -195,6 +195,92 @@ function showSelectedBaseMap(map, basemap) {
 }
 
 // ----------------------------------------------------------------------------
+function distanceToString(dist, useKm) {
+  
+  'use strict';
+  var retStr, n_km, n_m;
+
+  // distance is in meters
+  if (useKm) {
+    n_km = Math.floor(dist / 1000);
+    n_m = Math.round(dist % 1000);
+    if (n_km > 0) {
+      retStr = n_km + ' Km ' + n_m + 'm';
+    }
+    else {
+      retStr = n_m + ' m';
+    }
+  }
+  else {
+    retStr = Math.round(dist) + ' m';
+  }
+  return retStr
+}
+
+// ----------------------------------------------------------------------------
+function timemsToString(timems, printms) {
+  
+  'use strict'
+  var h, m, s, ms, retStr = '';
+  
+  s = Math.floor(timems / 1000);
+  ms = Math.round(timems % 1000);
+  
+  h = Math.floor(s / 3600);
+  s = s % 3600;
+  m = Math.floor(s / 60);
+  s = s & 60;
+  if (h > 0) {
+    retStr = h + ' h ';
+  }
+  if (m > 0) {
+    retStr += m + ' m ';
+  }
+  if (s > 0) {
+    retStr += s + ' s ';
+  }
+  if (printms && (ms > 0)) {
+    retStr += ms + ' ms';
+  }
+  
+  return retStr;
+}
+
+// ----------------------------------------------------------------------------
+function printTrackInfo(gpx) {
+  
+  'use strict';
+  document.getElementById('md_trackname').textContent = 'Nome della traccia: ' + 
+    gpx.get_name();
+
+  document.getElementById('md_totdistance').textContent = 'Distanza totale: ' +
+    distanceToString(gpx.get_distance(), true);
+  
+  document.getElementById('md_starttime').textContent = 'Orario di inizio: ' + 
+    gpx.get_start_time();
+  document.getElementById('md_endtime').textContent = 'Orario di fine: ' + 
+    gpx.get_end_time();
+  document.getElementById('md_movingtime').textContent = 'Tempo in movimento: ' + 
+    timemsToString(gpx.get_moving_time(), false);
+  document.getElementById('md_totaltime').textContent = 'Tempo totale: ' + 
+    timemsToString(gpx.get_total_time(), false);
+  document.getElementById('md_movingpace').textContent = 'Ritmo medio in movimento: ' + 
+    timemsToString(gpx.get_moving_pace(), false);
+  document.getElementById('md_movingspeed').textContent = 'Velocità media in movimento: ' + 
+    gpx.get_moving_speed().toFixed(2) + ' Km/h';
+  document.getElementById('md_totalspeed').textContent = 'Velocità media: ' + 
+    gpx.get_total_speed().toFixed(2) + ' Km/h';
+  document.getElementById('md_elevmin').textContent = 'Elevazione minima: ' +
+    distanceToString(gpx.get_elevation_min(), false) + ' s.l.m.';
+  document.getElementById('md_elevmax').textContent = 'Elevazione massima: ' + 
+    distanceToString(gpx.get_elevation_max(), false) + ' s.l.m.';
+  document.getElementById('md_elevgain').textContent = 'Dislivello in salita: ' + 
+    distanceToString(gpx.get_elevation_gain(), false);
+  document.getElementById('md_elevloss').textContent = 'Dislivello in discesa: ' + 
+    distanceToString(gpx.get_elevation_loss(), false);
+}
+
+// ----------------------------------------------------------------------------
 function showTrack(map, track) {
   'use strict';
   var gpx = track;
@@ -215,19 +301,7 @@ function showTrack(map, track) {
     var gpx = e.target;
     map.fitBounds(gpx.getBounds());
 
-    document.getElementById('md_trackname').textContent = 'Nome della traccia: ' + gpx.get_name();
-    document.getElementById('md_totdistance').textContent = 'Distanza totale: ' + gpx.get_distance() + ' m';
-    document.getElementById('md_starttime').textContent = 'Orario di inizio: ' + gpx.get_start_time();
-    document.getElementById('md_endtime').textContent = 'Orario di fine: ' + gpx.get_end_time();
-    document.getElementById('md_movingtime').textContent = 'Tempo in movimento: ' + gpx.get_moving_time() + " ms";
-    document.getElementById('md_totaltime').textContent = 'Tempo totale: ' + gpx.get_total_time() + " ms";
-    document.getElementById('md_movingpace').textContent = 'Ritmo medio in movimento: ' + gpx.get_moving_pace() + " ms";
-    document.getElementById('md_movingspeed').textContent = 'Velocità media in movimento: ' + gpx.get_moving_speed() + ' Km/h';
-    document.getElementById('md_totalspeed').textContent = 'Velocità media: ' + gpx.get_total_speed() + ' Km/h';
-    document.getElementById('md_elevmin').textContent = 'Elevazione minima: ' + gpx.get_elevation_min() + ' m s.l.m.';
-    document.getElementById('md_elevmax').textContent = 'Elevazione massima: ' + gpx.get_elevation_max() + ' m s.l.m.';
-    document.getElementById('md_elevgain').textContent = 'Guadagno in elevazione: ' + gpx.get_elevation_gain() + ' m';
-    document.getElementById('md_elevloss').textContent = 'Perdita in elevazione: ' + gpx.get_elevation_loss() + ' m';
+    printTrackInfo(gpx);
     
   }).addTo(map);
 }
