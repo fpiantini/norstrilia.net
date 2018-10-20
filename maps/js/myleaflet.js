@@ -214,7 +214,9 @@ function showTrack(map, track) {
   }).on('loaded', function (e) {
     var gpx = e.target;
     map.fitBounds(gpx.getBounds());
-    console.log('GPX name = ' + gpx.get_name());
+    var md_trackname = gpx.get_name();
+    document.getElementById('md_trackname').textContent =
+      'Nome della traccia: \"' + md_trackname + '\"';
   }).addTo(map);
 }
 

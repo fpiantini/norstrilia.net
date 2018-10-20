@@ -75,12 +75,46 @@
 
       </div>
       
+      
+      
+      
+      
       <div class="divdark" id="trackInfo">
-      <p class="inevidence">
-        Informazioni sul percorso
+        <p class="inevidence">
+          Informazioni sul percorso.
         </p>
-        <p class="normal">WORK IN PROGRESS</p>
+        <p class="normal" id = "md_trackname">
+          Nome della traccia:
+        </p>
       </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       <div class="divlight" id="mapbox">
         <p class="inevidence">
