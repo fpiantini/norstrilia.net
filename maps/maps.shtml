@@ -83,10 +83,10 @@
         <p class="normal" id = "md_starttime">Orario di inizio:</p>
         <p class="normal" id = "md_endtime">Orario di fine:</p>
         <p class="normal" id = "md_totdistance">Distanza totale:</p>
-        <p class="normal" id = "md_movingtime">Tempo in movimento:</p>
+        <p class="normal hidden" id = "md_movingtime">Tempo in movimento:</p>
         <p class="normal" id = "md_totaltime">Tempo totale:</p>
-        <p class="normal" id = "md_movingpace">Ritmo medio in movimento:</p>
-        <p class="normal" id = "md_movingspeed">Velocità media in movimento:</p>
+        <p class="normal hidden" id = "md_movingpace">Ritmo medio in movimento:</p>
+        <p class="normal hidden" id = "md_movingspeed">Velocità media in movimento:</p>
         <p class="normal" id = "md_totalspeed">Velocità media:</p>
         <p class="normal" id = "md_elevmin">Elevazione minima:</p>
         <p class="normal" id = "md_elevmax">Elevazione massima:</p>

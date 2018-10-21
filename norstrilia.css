@@ -148,6 +148,10 @@ body {
 
 }
 
+.hidden {
+  display: none;
+}
+
 #main-activities p {
   padding-top: 0.3cm;
   padding-bottom: 0.3cm;
