@@ -7,6 +7,14 @@ var document;
 var treks =
     [
       {
+        "title": "Colle Val d'Elsa - Costeggiando l'Elsa da Gracciano a Ponte di Spugna",
+        "trackfile": "tracks/20181021_Elsa_da_Gracciano_a_Ponte_di_Spugna.gpx"
+      },
+      {
+        "title": "Colle val d'Elsa - Costeggiando l'Elsa da Ponte di Spugna a Gracciano",
+        "trackfile": "tracks/20181021_Elsa_da_Ponte_di_Spugna_a_Gracciano.gpx"
+      },
+      {
         "title": "Sesto Fiorentino - Monte Morello, sgambata sopra Colonnata",
         "trackfile": "tracks/20181020_morello_basso_lato_colonnata.gpx"
       },
