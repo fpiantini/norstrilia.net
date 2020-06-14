@@ -62,8 +62,8 @@
             <p>
               <label><input type="radio" name="basemap" value="otm" checked="checked" /> OpenTopoMap</label>
               <label><input type="radio" name="basemap" value="fum" /> 4UMaps</label>
-              <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label>
-              <label><input type="radio" name="basemap" value="mb" /> MapBox</label>
+              <!--APIKEY-- <label><input type="radio" name="basemap" value="tf" /> ThunderForest Landscape</label> -->
+              <!--APIKEY-- <label><input type="radio" name="basemap" value="mb" /> MapBox</label> -->
             </p>
           </fieldset>
         </form>

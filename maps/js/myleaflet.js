@@ -142,36 +142,36 @@ function openTopoMapLayer() {
 }
 
 // ----------------------------------------------------------------------------
-function thunderForestLandscapeLayer() {
-  'use strict';
-  return L.tileLayer('https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey={apikey}',  {
-    attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    apikey: 'e9fb11ac45734d7f9475e22de47d93e7',
-    maxZoom: 22
-  });
-}
+//--API-- function thunderForestLandscapeLayer() {
+//--API--   'use strict';
+//--API--   return L.tileLayer('https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey={apikey}',  {
+//--API--    attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+//--API--    apikey: 'ThunderForestApiKey',
+//--API--    maxZoom: 22
+//--API--  });
+//--API-- }
 
 // ----------------------------------------------------------------------------
-function mapBoxLayer() {
-  'use strict';
-
-  var mpKey, mpUrl, mpAttrib;
-  
-  // save my MapBox key
-  mpKey = 'pk.eyJ1Ijoicm9kbWNiYW4iLCJhIjoiY2ptNHQ2c3N1MGducTNxbzRydGUwZzdtMSJ9.jILIRcBlfcJTPZztynaKwQ';
-  mpUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mpKey;
-
-  mpAttrib = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-          'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>';
-
-  return new L.tileLayer(mpUrl,
-    {
-      attribution: mpAttrib,
-      id: 'mapbox.streets'
-    }
-                        );
-}
+//--API-- function mapBoxLayer() {
+//--API--   'use strict';
+//--API--
+//--API--  var mpKey, mpUrl, mpAttrib;
+//--API--
+//--API--  // save my MapBox key
+//--API--  mpKey = 'MapBoxApiKey';
+//--API--  mpUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mpKey;
+//--API--
+//--API--  mpAttrib = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+//--API--          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+//--API--          'Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>';
+//--API--
+//--API--  return new L.tileLayer(mpUrl,
+//--API--    {
+//--API--      attribution: mpAttrib,
+//--API--      id: 'mapbox.streets'
+//--API--    }
+//--API--  );
+//--API--}
 
 // ----------------------------------------------------------------------------
 function showSelectedBaseMap(map, basemap) {
@@ -187,17 +187,17 @@ function showSelectedBaseMap(map, basemap) {
     // Open topo map
     map.addLayer(openTopoMapLayer());
     break;
-  case 'tf':
-    // Thunderforest landscape
-    map.addLayer(thunderForestLandscapeLayer());
-    break;
-  case 'mb':
-    // Mapbox
-    map.addLayer(mapBoxLayer());
-    break;
+  //--API-- case 'tf':
+  //--API--   // Thunderforest landscape
+  //--API--   map.addLayer(thunderForestLandscapeLayer());
+  //--API--   break;
+  //--API-- case 'mb':
+  //--API--   // Mapbox
+  //--API--   map.addLayer(mapBoxLayer());
+  //--API--   break;
   default:
-    // impossible... Uses Mapbox
-    map.addLayer(mapBoxLayer());
+    // impossible... Uses OpenTopoMap
+    map.addLayer(openTopoMapLayer());
     break;
   }
 }
